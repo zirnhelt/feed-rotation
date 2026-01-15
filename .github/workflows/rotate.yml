@@ -1,0 +1,48 @@
+name: Rotate Feeds
+
+on:
+  schedule:
+    # Run every Sunday at 2am UTC (6pm Saturday Pacific Time)
+    - cron: '0 2 * * 0'
+  workflow_dispatch:  # Allow manual trigger from GitHub UI
+
+jobs:
+  rotate:
+    runs-on: ubuntu-latest
+    
+    permissions:
+      contents: write  # Needed to commit changes
+    
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+    
+    - name: Set up Python
+      uses: actions/setup-python@v5
+      with:
+        python-version: '3.11'
+    
+    - name: Run rotation script
+      run: python rotate_feeds.py
+    
+    - name: Check for changes
+      id: check_changes
+      run: |
+        if git diff --quiet docs/feeds.opml discovery_pool.json; then
+          echo "changes=false" >> $GITHUB_OUTPUT
+        else
+          echo "changes=true" >> $GITHUB_OUTPUT
+        fi
+    
+    - name: Commit and push changes
+      if: steps.check_changes.outputs.changes == 'true'
+      run: |
+        git config --local user.email "github-actions[bot]@users.noreply.github.com"
+        git config --local user.name "github-actions[bot]"
+        git add docs/feeds.opml discovery_pool.json
+        git commit -m "Auto: Rotate feeds ($(date +'%Y-%m-%d'))"
+        git push
+    
+    - name: No changes
+      if: steps.check_changes.outputs.changes == 'false'
+      run: echo "No changes to commit"
