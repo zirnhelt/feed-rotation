@@ -129,7 +129,9 @@ def main():
     pool = load_json('discovery_pool.json')
     core_tree = load_opml('core_feeds.opml')
     
-    print(f"  Core feeds: {len(core_tree.findall('.//outline[@type=\"rss\"]'))}")
+    rss_xpath = './/outline[@type="rss"]'
+    core_feed_count = len(core_tree.findall(rss_xpath))
+    print(f"  Core feeds: {core_feed_count}")
     print(f"  Discovery pool size: {len(pool['feeds'])}")
     print(f"  Feeds to rotate in: {config['num_discovery_feeds']}\n")
     
@@ -165,9 +167,11 @@ def main():
                      encoding='utf-8', 
                      xml_declaration=True)
     
-    total_feeds = len(core_tree.findall('.//outline[@type="rss"]')) + len(selected)
+    rss_xpath = './/outline[@type="rss"]'
+    total_feeds = len(core_tree.findall(rss_xpath)) + len(selected)
+    core_count = len(core_tree.findall(rss_xpath))
     print(f"\n✓ Generated docs/feeds.opml with {total_feeds} total feeds")
-    print(f"  - Core feeds: {len(core_tree.findall('.//outline[@type=\"rss\"]'))}")
+    print(f"  - Core feeds: {core_count}")
     print(f"  - Discovery feeds: {len(selected)}")
     print("\nDone! 🎉")
 
