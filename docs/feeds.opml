@@ -2,7 +2,7 @@
 <opml version="2.0">
   <head>
     <title>Feed Rotation - Generated</title>
-    <dateCreated>2026-01-15T14:33:59.064781</dateCreated>
+    <dateCreated>2026-01-15T22:46:44.590465</dateCreated>
   </head>
   <body>
     <outline text="Science &amp; Deep Thinking" title="Science &amp; Deep Thinking">
@@ -23,12 +23,19 @@
     <outline text="Climate &amp; Environment" title="Climate &amp; Environment">
       <outline type="rss" text="Carbon Brief" title="Carbon Brief" xmlUrl="https://feeds.feedburner.com/carbonbrief" htmlUrl="https://www.carbonbrief.org" />
     </outline>
+    <outline text="News" title="News">
+      <outline type="rss" text="NYT &gt; Top Stories" title="NYT &gt; Top Stories" xmlUrl="http://www.nytimes.com/services/xml/rss/nyt/HomePage.xml" htmlUrl="https://nytimes.com" />
+      <outline type="rss" text="CBC News" title="CBC News" xmlUrl="https://www.cbc.ca/cmlink/rss-topstories" htmlUrl="https://www.cbc.ca/news" />
+      <outline type="rss" text="CBC British Columbia" title="CBC British Columbia" xmlUrl="https://www.cbc.ca/cmlink/rss-canada-britishcolumbia" htmlUrl="https://www.cbc.ca/news/canada/british-columbia" />
+      <outline type="rss" text="Williams Lake Tribune" title="Williams Lake Tribune" xmlUrl="https://www.wltribune.com/feed/" htmlUrl="https://www.wltribune.com" />
+      <outline type="rss" text="Quesnel Cariboo Observer" title="Quesnel Cariboo Observer" xmlUrl="https://www.quesnelobserver.com/feed/" htmlUrl="https://www.quesnelobserver.com" />
+    </outline>
     <outline text="Discovery Rotation" title="Discovery Rotation">
-      <outline type="rss" text="Kottke.org" title="Kottke.org" xmlUrl="https://feeds.kottke.org/main" htmlUrl="https://kottke.org" />
-      <outline type="rss" text="Ars Technica – Technology Lab" title="Ars Technica – Technology Lab" xmlUrl="https://feeds.arstechnica.com/arstechnica/technology-lab" htmlUrl="https://arstechnica.com" />
-      <outline type="rss" text="NYT &gt; Business" title="NYT &gt; Business" xmlUrl="http://www.nytimes.com/services/xml/rss/nyt/Business.xml" htmlUrl="https://www.nytimes.com/section/business" />
-      <outline type="rss" text="Quartz" title="Quartz" xmlUrl="http://qz.com/feed" htmlUrl="https://qz.com" />
-      <outline type="rss" text="National Geographic News" title="National Geographic News" xmlUrl="http://news.nationalgeographic.com/index.rss" htmlUrl="http://news.nationalgeographic.com" />
+      <outline type="rss" text="Scientific American" title="Scientific American" xmlUrl="https://www.scientificamerican.com/feed/" htmlUrl="https://www.scientificamerican.com" />
+      <outline type="rss" text="Reuters Top News" title="Reuters Top News" xmlUrl="http://feeds.reuters.com/reuters/topNews" htmlUrl="https://www.reuters.com" />
+      <outline type="rss" text="Open Culture" title="Open Culture" xmlUrl="https://www.openculture.com/feed" htmlUrl="https://www.openculture.com" />
+      <outline type="rss" text="Every Page is Page One" title="Every Page is Page One" xmlUrl="http://everypageispageone.com/feed/" htmlUrl="https://everypageispageone.com" />
+      <outline type="rss" text="Note to Self" title="Note to Self" xmlUrl="https://notetoself.studio/index.xml" htmlUrl="https://notetoself.studio/" />
     </outline>
   </body>
 </opml>
