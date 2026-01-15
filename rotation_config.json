@@ -1,0 +1,7 @@
+{
+  "num_discovery_feeds": 5,
+  "rotation_frequency_days": 7,
+  "min_days_between_includes": 28,
+  "quality_weight": 0.7,
+  "randomness_weight": 0.3
+}

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<opml version="2.0">
+  <head>
+    <title>Core Feeds (Stable)</title>
+    <dateCreated>2025-01-15</dateCreated>
+  </head>
+  <body>
+    <outline text="Science &amp; Deep Thinking" title="Science &amp; Deep Thinking">
+      <outline type="rss" text="Quanta Magazine" title="Quanta Magazine" 
+        xmlUrl="https://api.quantamagazine.org/feed/" 
+        htmlUrl="https://www.quantamagazine.org"/>
+      <outline type="rss" text="Aeon Essays" title="Aeon Essays" 
+        xmlUrl="https://aeon.co/feed.rss" 
+        htmlUrl="https://aeon.co"/>
+      <outline type="rss" text="Nautilus" title="Nautilus" 
+        xmlUrl="https://nautil.us/feed/" 
+        htmlUrl="https://nautil.us"/>
+      <outline type="rss" text="Science-Based Medicine" title="Science-Based Medicine" 
+        xmlUrl="http://www.sciencebasedmedicine.org/?feed=rss2" 
+        htmlUrl="https://sciencebasedmedicine.org"/>
+    </outline>
+    
+    <outline text="Tech Analysis &amp; Deep Dives" title="Tech Analysis &amp; Deep Dives">
+      <outline type="rss" text="Stratechery by Ben Thompson" title="Stratechery by Ben Thompson" 
+        xmlUrl="https://stratechery.com/feed/" 
+        htmlUrl="https://stratechery.com"/>
+      <outline type="rss" text="Julia Evans' Blog" title="Julia Evans' Blog" 
+        xmlUrl="https://jvns.ca/atom.xml" 
+        htmlUrl="https://jvns.ca"/>
+      <outline type="rss" text="MIT Technology Review" title="MIT Technology Review" 
+        xmlUrl="https://www.technologyreview.com/feed/" 
+        htmlUrl="https://www.technologyreview.com"/>
+    </outline>
+    
+    <outline text="Systems &amp; Culture" title="Systems &amp; Culture">
+      <outline type="rss" text="Low Tech Magazine" title="Low Tech Magazine" 
+        xmlUrl="https://www.lowtechmagazine.com/atom.xml" 
+        htmlUrl="https://solar.lowtechmagazine.com/posts/"/>
+      <outline type="rss" text="The Marginalian (Maria Popova)" title="The Marginalian (Maria Popova)" 
+        xmlUrl="https://www.themarginalian.org/feed/" 
+        htmlUrl="https://www.themarginalian.org"/>
+    </outline>
+    
+    <outline text="Climate &amp; Environment" title="Climate &amp; Environment">
+      <outline type="rss" text="Carbon Brief" title="Carbon Brief" 
+        xmlUrl="https://feeds.feedburner.com/carbonbrief" 
+        htmlUrl="https://www.carbonbrief.org"/>
+    </outline>
+    
+    <outline text="News" title="News">
+      <outline type="rss" text="NYT &gt; Top Stories" title="NYT &gt; Top Stories" 
+        xmlUrl="http://www.nytimes.com/services/xml/rss/nyt/HomePage.xml" 
+        htmlUrl="https://nytimes.com"/>
+      <outline type="rss" text="CBC News" title="CBC News" 
+        xmlUrl="https://www.cbc.ca/cmlink/rss-topstories" 
+        htmlUrl="https://www.cbc.ca/news"/>
+      <outline type="rss" text="CBC British Columbia" title="CBC British Columbia" 
+        xmlUrl="https://www.cbc.ca/cmlink/rss-canada-britishcolumbia" 
+        htmlUrl="https://www.cbc.ca/news/canada/british-columbia"/>
+      <outline type="rss" text="Williams Lake Tribune" title="Williams Lake Tribune" 
+        xmlUrl="https://www.wltribune.com/feed/" 
+        htmlUrl="https://www.wltribune.com"/>
+      <outline type="rss" text="Quesnel Cariboo Observer" title="Quesnel Cariboo Observer" 
+        xmlUrl="https://www.quesnelobserver.com/feed/" 
+        htmlUrl="https://www.quesnelobserver.com"/>
+    </outline>
+  </body>
+</opml>
