@@ -2,7 +2,7 @@
 <opml version="2.0">
   <head>
     <title>Feed Rotation - Generated</title>
-    <dateCreated>2026-01-15T22:46:44.590465</dateCreated>
+    <dateCreated>2026-01-18T03:27:35.626794</dateCreated>
   </head>
   <body>
     <outline text="Science &amp; Deep Thinking" title="Science &amp; Deep Thinking">
@@ -31,11 +31,11 @@
       <outline type="rss" text="Quesnel Cariboo Observer" title="Quesnel Cariboo Observer" xmlUrl="https://www.quesnelobserver.com/feed/" htmlUrl="https://www.quesnelobserver.com" />
     </outline>
     <outline text="Discovery Rotation" title="Discovery Rotation">
-      <outline type="rss" text="Scientific American" title="Scientific American" xmlUrl="https://www.scientificamerican.com/feed/" htmlUrl="https://www.scientificamerican.com" />
-      <outline type="rss" text="Reuters Top News" title="Reuters Top News" xmlUrl="http://feeds.reuters.com/reuters/topNews" htmlUrl="https://www.reuters.com" />
-      <outline type="rss" text="Open Culture" title="Open Culture" xmlUrl="https://www.openculture.com/feed" htmlUrl="https://www.openculture.com" />
-      <outline type="rss" text="Every Page is Page One" title="Every Page is Page One" xmlUrl="http://everypageispageone.com/feed/" htmlUrl="https://everypageispageone.com" />
-      <outline type="rss" text="Note to Self" title="Note to Self" xmlUrl="https://notetoself.studio/index.xml" htmlUrl="https://notetoself.studio/" />
+      <outline type="rss" text="The Atlantic – Culture" title="The Atlantic – Culture" xmlUrl="https://www.theatlantic.com/feed/channel/culture/" htmlUrl="https://www.theatlantic.com/culture/" />
+      <outline type="rss" text="NYT &gt; Top Stories" title="NYT &gt; Top Stories" xmlUrl="http://www.nytimes.com/services/xml/rss/nyt/HomePage.xml" htmlUrl="https://nytimes.com" />
+      <outline type="rss" text="Articles (Dangerous Minds)" title="Articles (Dangerous Minds)" xmlUrl="http://dangerousminds.net/atom" htmlUrl="https://dangerousminds.net" />
+      <outline type="rss" text="WIRED" title="WIRED" xmlUrl="https://www.wired.com/feed/rss" htmlUrl="https://www.wired.com" />
+      <outline type="rss" text="Techdirt" title="Techdirt" xmlUrl="http://www.techdirt.com/techdirt_rss.xml" htmlUrl="https://www.techdirt.com" />
     </outline>
   </body>
 </opml>
