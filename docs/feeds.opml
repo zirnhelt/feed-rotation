@@ -2,7 +2,7 @@
 <opml version="2.0">
   <head>
     <title>Feed Rotation - Generated</title>
-    <dateCreated>2026-01-25T03:44:26.682658</dateCreated>
+    <dateCreated>2026-02-01T04:18:58.312966</dateCreated>
   </head>
   <body>
     <outline text="Science &amp; Deep Thinking" title="Science &amp; Deep Thinking">
@@ -31,11 +31,11 @@
       <outline type="rss" text="Quesnel Cariboo Observer" title="Quesnel Cariboo Observer" xmlUrl="https://www.quesnelobserver.com/feed/" htmlUrl="https://www.quesnelobserver.com" />
     </outline>
     <outline text="Discovery Rotation" title="Discovery Rotation">
-      <outline type="rss" text="Al Jazeera English" title="Al Jazeera English" xmlUrl="https://www.aljazeera.com/xml/rss/all.xml" htmlUrl="https://www.aljazeera.com" />
-      <outline type="rss" text="BBC World News" title="BBC World News" xmlUrl="http://feeds.bbci.co.uk/news/world/rss.xml" htmlUrl="https://www.bbc.co.uk/news/world" />
-      <outline type="rss" text="Matt Cutts: Gadgets, Google, and SEO" title="Matt Cutts: Gadgets, Google, and SEO" xmlUrl="http://www.mattcutts.com/blog/feed/" htmlUrl="https://www.mattcutts.com/blog" />
-      <outline type="rss" text="Metafilter" title="Metafilter" xmlUrl="https://www.metafilter.com/rss.xml" htmlUrl="https://www.metafilter.com" />
-      <outline type="rss" text="Boing Boing" title="Boing Boing" xmlUrl="https://boingboing.net/feed" htmlUrl="https://boingboing.net" />
+      <outline type="rss" text="AP News" title="AP News" xmlUrl="https://apnews.com/rss" htmlUrl="https://apnews.com" />
+      <outline type="rss" text="The Guardian – Global Development" title="The Guardian – Global Development" xmlUrl="https://www.theguardian.com/global-development/rss" htmlUrl="https://www.theguardian.com/global-development" />
+      <outline type="rss" text="The Progressive Economics Forum" title="The Progressive Economics Forum" xmlUrl="http://www.progressive-economics.ca/feed/" htmlUrl="https://www.progressive-economics.ca" />
+      <outline type="rss" text="Noahpinion (Noah Smith)" title="Noahpinion (Noah Smith)" xmlUrl="https://noahpinion.substack.com/feed" htmlUrl="https://www.noahpinion.blog" />
+      <outline type="rss" text="Creative Review" title="Creative Review" xmlUrl="https://www.creativereview.co.uk/feed/" htmlUrl="https://www.creativereview.co.uk" />
     </outline>
   </body>
 </opml>
