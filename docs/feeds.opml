@@ -2,7 +2,7 @@
 <opml version="2.0">
   <head>
     <title>Feed Rotation - Generated</title>
-    <dateCreated>2026-02-08T04:24:18.134753</dateCreated>
+    <dateCreated>2026-02-15T04:10:35.133947</dateCreated>
   </head>
   <body>
     <outline text="Science &amp; Deep Thinking" title="Science &amp; Deep Thinking">
@@ -31,11 +31,11 @@
       <outline type="rss" text="Quesnel Cariboo Observer" title="Quesnel Cariboo Observer" xmlUrl="https://www.quesnelobserver.com/feed/" htmlUrl="https://www.quesnelobserver.com" />
     </outline>
     <outline text="Discovery Rotation" title="Discovery Rotation">
-      <outline type="rss" text="One Mile at a Time" title="One Mile at a Time" xmlUrl="http://boardingarea.com/blogs/onemileatatime/feed/" htmlUrl="https://onemileatatime.com" />
-      <outline type="rss" text="Articles - The Canada Files" title="Articles - The Canada Files" xmlUrl="https://www.thecanadafiles.com/articles?format=rss" htmlUrl="https://www.thecanadafiles.com/articles/" />
-      <outline type="rss" text="Google Search Central Blog" title="Google Search Central Blog" xmlUrl="http://googlewebmastercentral.blogspot.com/atom.xml" htmlUrl="https://developers.google.com/search/blog/" />
-      <outline type="rss" text="News – SmartThings Blog" title="News – SmartThings Blog" xmlUrl="http://blog.smartthings.com/category/news/feed/" htmlUrl="https://blog.smartthings.com" />
-      <outline type="rss" text="Futility Closet" title="Futility Closet" xmlUrl="https://www.futilitycloset.com/feed/" htmlUrl="https://www.futilitycloset.com" />
+      <outline type="rss" text="Ars Technica – Technology Lab" title="Ars Technica – Technology Lab" xmlUrl="https://feeds.arstechnica.com/arstechnica/technology-lab" htmlUrl="https://arstechnica.com" />
+      <outline type="rss" text="NYT &gt; Business" title="NYT &gt; Business" xmlUrl="http://www.nytimes.com/services/xml/rss/nyt/Business.xml" htmlUrl="https://www.nytimes.com/section/business" />
+      <outline type="rss" text="Kottke.org" title="Kottke.org" xmlUrl="https://feeds.kottke.org/main" htmlUrl="https://kottke.org" />
+      <outline type="rss" text="NYT &gt; Top Stories" title="NYT &gt; Top Stories" xmlUrl="http://www.nytimes.com/services/xml/rss/nyt/HomePage.xml" htmlUrl="https://nytimes.com" />
+      <outline type="rss" text="The Atlantic – Culture" title="The Atlantic – Culture" xmlUrl="https://www.theatlantic.com/feed/channel/culture/" htmlUrl="https://www.theatlantic.com/culture/" />
     </outline>
   </body>
 </opml>
