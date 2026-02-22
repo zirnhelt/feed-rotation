@@ -2,7 +2,7 @@
 <opml version="2.0">
   <head>
     <title>Feed Rotation - Generated</title>
-    <dateCreated>2026-02-15T04:10:35.133947</dateCreated>
+    <dateCreated>2026-02-22T04:05:28.670956</dateCreated>
   </head>
   <body>
     <outline text="Science &amp; Deep Thinking" title="Science &amp; Deep Thinking">
@@ -31,11 +31,11 @@
       <outline type="rss" text="Quesnel Cariboo Observer" title="Quesnel Cariboo Observer" xmlUrl="https://www.quesnelobserver.com/feed/" htmlUrl="https://www.quesnelobserver.com" />
     </outline>
     <outline text="Discovery Rotation" title="Discovery Rotation">
-      <outline type="rss" text="Ars Technica – Technology Lab" title="Ars Technica – Technology Lab" xmlUrl="https://feeds.arstechnica.com/arstechnica/technology-lab" htmlUrl="https://arstechnica.com" />
-      <outline type="rss" text="NYT &gt; Business" title="NYT &gt; Business" xmlUrl="http://www.nytimes.com/services/xml/rss/nyt/Business.xml" htmlUrl="https://www.nytimes.com/section/business" />
-      <outline type="rss" text="Kottke.org" title="Kottke.org" xmlUrl="https://feeds.kottke.org/main" htmlUrl="https://kottke.org" />
-      <outline type="rss" text="NYT &gt; Top Stories" title="NYT &gt; Top Stories" xmlUrl="http://www.nytimes.com/services/xml/rss/nyt/HomePage.xml" htmlUrl="https://nytimes.com" />
-      <outline type="rss" text="The Atlantic – Culture" title="The Atlantic – Culture" xmlUrl="https://www.theatlantic.com/feed/channel/culture/" htmlUrl="https://www.theatlantic.com/culture/" />
+      <outline type="rss" text="Scientific American" title="Scientific American" xmlUrl="https://www.scientificamerican.com/feed/" htmlUrl="https://www.scientificamerican.com" />
+      <outline type="rss" text="Metafilter" title="Metafilter" xmlUrl="https://www.metafilter.com/rss.xml" htmlUrl="https://www.metafilter.com" />
+      <outline type="rss" text="Al Jazeera English" title="Al Jazeera English" xmlUrl="https://www.aljazeera.com/xml/rss/all.xml" htmlUrl="https://www.aljazeera.com" />
+      <outline type="rss" text="Open Culture" title="Open Culture" xmlUrl="https://www.openculture.com/feed" htmlUrl="https://www.openculture.com" />
+      <outline type="rss" text="Matt Cutts: Gadgets, Google, and SEO" title="Matt Cutts: Gadgets, Google, and SEO" xmlUrl="http://www.mattcutts.com/blog/feed/" htmlUrl="https://www.mattcutts.com/blog" />
     </outline>
   </body>
 </opml>
