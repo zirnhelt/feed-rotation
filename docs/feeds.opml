@@ -2,7 +2,7 @@
 <opml version="2.0">
   <head>
     <title>Feed Rotation - Generated</title>
-    <dateCreated>2026-02-22T04:05:28.670956</dateCreated>
+    <dateCreated>2026-03-01T04:11:20.058574</dateCreated>
   </head>
   <body>
     <outline text="Science &amp; Deep Thinking" title="Science &amp; Deep Thinking">
@@ -31,11 +31,11 @@
       <outline type="rss" text="Quesnel Cariboo Observer" title="Quesnel Cariboo Observer" xmlUrl="https://www.quesnelobserver.com/feed/" htmlUrl="https://www.quesnelobserver.com" />
     </outline>
     <outline text="Discovery Rotation" title="Discovery Rotation">
-      <outline type="rss" text="Scientific American" title="Scientific American" xmlUrl="https://www.scientificamerican.com/feed/" htmlUrl="https://www.scientificamerican.com" />
-      <outline type="rss" text="Metafilter" title="Metafilter" xmlUrl="https://www.metafilter.com/rss.xml" htmlUrl="https://www.metafilter.com" />
-      <outline type="rss" text="Al Jazeera English" title="Al Jazeera English" xmlUrl="https://www.aljazeera.com/xml/rss/all.xml" htmlUrl="https://www.aljazeera.com" />
-      <outline type="rss" text="Open Culture" title="Open Culture" xmlUrl="https://www.openculture.com/feed" htmlUrl="https://www.openculture.com" />
-      <outline type="rss" text="Matt Cutts: Gadgets, Google, and SEO" title="Matt Cutts: Gadgets, Google, and SEO" xmlUrl="http://www.mattcutts.com/blog/feed/" htmlUrl="https://www.mattcutts.com/blog" />
+      <outline type="rss" text="Articles (Dangerous Minds)" title="Articles (Dangerous Minds)" xmlUrl="http://dangerousminds.net/atom" htmlUrl="https://dangerousminds.net" />
+      <outline type="rss" text="National Geographic News" title="National Geographic News" xmlUrl="http://news.nationalgeographic.com/index.rss" htmlUrl="http://news.nationalgeographic.com" />
+      <outline type="rss" text="WIRED" title="WIRED" xmlUrl="https://www.wired.com/feed/rss" htmlUrl="https://www.wired.com" />
+      <outline type="rss" text="The Points Guy" title="The Points Guy" xmlUrl="https://thepointsguy.com/feed/" htmlUrl="https://thepointsguy.com" />
+      <outline type="rss" text="Boing Boing" title="Boing Boing" xmlUrl="https://boingboing.net/feed" htmlUrl="https://boingboing.net" />
     </outline>
   </body>
 </opml>
