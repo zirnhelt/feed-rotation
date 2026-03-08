@@ -2,7 +2,7 @@
 <opml version="2.0">
   <head>
     <title>Feed Rotation - Generated</title>
-    <dateCreated>2026-03-01T04:11:20.058574</dateCreated>
+    <dateCreated>2026-03-08T03:59:58.398597</dateCreated>
   </head>
   <body>
     <outline text="Science &amp; Deep Thinking" title="Science &amp; Deep Thinking">
@@ -31,11 +31,11 @@
       <outline type="rss" text="Quesnel Cariboo Observer" title="Quesnel Cariboo Observer" xmlUrl="https://www.quesnelobserver.com/feed/" htmlUrl="https://www.quesnelobserver.com" />
     </outline>
     <outline text="Discovery Rotation" title="Discovery Rotation">
-      <outline type="rss" text="Articles (Dangerous Minds)" title="Articles (Dangerous Minds)" xmlUrl="http://dangerousminds.net/atom" htmlUrl="https://dangerousminds.net" />
-      <outline type="rss" text="National Geographic News" title="National Geographic News" xmlUrl="http://news.nationalgeographic.com/index.rss" htmlUrl="http://news.nationalgeographic.com" />
-      <outline type="rss" text="WIRED" title="WIRED" xmlUrl="https://www.wired.com/feed/rss" htmlUrl="https://www.wired.com" />
-      <outline type="rss" text="The Points Guy" title="The Points Guy" xmlUrl="https://thepointsguy.com/feed/" htmlUrl="https://thepointsguy.com" />
-      <outline type="rss" text="Boing Boing" title="Boing Boing" xmlUrl="https://boingboing.net/feed" htmlUrl="https://boingboing.net" />
+      <outline type="rss" text="Noahpinion (Noah Smith)" title="Noahpinion (Noah Smith)" xmlUrl="https://noahpinion.substack.com/feed" htmlUrl="https://www.noahpinion.blog" />
+      <outline type="rss" text="BBC World News" title="BBC World News" xmlUrl="http://feeds.bbci.co.uk/news/world/rss.xml" htmlUrl="https://www.bbc.co.uk/news/world" />
+      <outline type="rss" text="Every Page is Page One" title="Every Page is Page One" xmlUrl="http://everypageispageone.com/feed/" htmlUrl="https://everypageispageone.com" />
+      <outline type="rss" text="Techdirt" title="Techdirt" xmlUrl="http://www.techdirt.com/techdirt_rss.xml" htmlUrl="https://www.techdirt.com" />
+      <outline type="rss" text="Note to Self" title="Note to Self" xmlUrl="https://notetoself.studio/index.xml" htmlUrl="https://notetoself.studio/" />
     </outline>
   </body>
 </opml>
