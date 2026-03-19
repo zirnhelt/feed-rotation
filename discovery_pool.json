@@ -22,7 +22,7 @@
         "eclectic"
       ],
       "quality_score": 8,
-      "last_included": "2026-02-15T04:10:35.133349"
+      "last_included": "2026-03-19T13:42:38.758823"
     },
     {
       "title": "Metafilter",
@@ -58,7 +58,7 @@
         "analysis"
       ],
       "quality_score": 8,
-      "last_included": "2026-02-15T04:10:35.133349"
+      "last_included": "2026-03-19T13:42:38.758823"
     },
     {
       "title": "Futility Closet",
@@ -142,18 +142,6 @@
         "global"
       ],
       "quality_score": 7,
-      "last_included": "2026-03-15T04:22:18.313894"
-    },
-    {
-      "title": "NYT > Top Stories",
-      "xmlUrl": "http://www.nytimes.com/services/xml/rss/nyt/HomePage.xml",
-      "htmlUrl": "https://nytimes.com",
-      "category": "news",
-      "tags": [
-        "mainstream",
-        "us"
-      ],
-      "quality_score": 8,
       "last_included": "2026-03-15T04:22:18.313894"
     },
     {
@@ -453,20 +441,8 @@
         "google",
         "tips"
       ],
-      "quality_score": 5,
+      "quality_score": 4,
       "last_included": null
-    },
-    {
-      "title": "Matt Cutts: Gadgets, Google, and SEO",
-      "xmlUrl": "http://www.mattcutts.com/blog/feed/",
-      "htmlUrl": "https://www.mattcutts.com/blog",
-      "category": "tech",
-      "tags": [
-        "seo",
-        "google"
-      ],
-      "quality_score": 6,
-      "last_included": "2026-02-22T04:05:28.670388"
     },
     {
       "title": "Every Page is Page One",
@@ -505,18 +481,6 @@
       "last_included": null
     },
     {
-      "title": "Alarm.com: The Smart Home Blog",
-      "xmlUrl": "http://www.alarm.com/about/rss.xml?v=88701",
-      "htmlUrl": "http://www.alarm.com/blog/",
-      "category": "smart-home",
-      "tags": [
-        "iot",
-        "security"
-      ],
-      "quality_score": 4,
-      "last_included": null
-    },
-    {
       "title": "Note to Self",
       "xmlUrl": "https://notetoself.studio/index.xml",
       "htmlUrl": "https://notetoself.studio/",
@@ -541,15 +505,231 @@
       "last_included": "2026-02-15T04:10:35.133349"
     },
     {
-      "title": "Scientific Blogging",
-      "xmlUrl": "http://www.scientificblogging.com/news/rss.xml",
-      "htmlUrl": "https://www.science20.com",
-      "category": "science",
+      "title": "Literary Hub",
+      "xmlUrl": "https://lithub.com/feed/",
+      "htmlUrl": "https://lithub.com",
+      "category": "arts",
       "tags": [
-        "science",
-        "commentary"
+        "literature",
+        "criticism"
       ],
-      "quality_score": 5,
+      "quality_score": 8,
+      "last_included": "2026-03-19T13:42:38.758823"
+    },
+    {
+      "title": "The Paris Review Daily",
+      "xmlUrl": "https://www.theparisreview.org/feed/",
+      "htmlUrl": "https://www.theparisreview.org",
+      "category": "arts",
+      "tags": [
+        "literature",
+        "arts"
+      ],
+      "quality_score": 8,
+      "last_included": "2026-03-19T13:42:38.758823"
+    },
+    {
+      "title": "Public Books",
+      "xmlUrl": "https://www.publicbooks.org/feed/",
+      "htmlUrl": "https://www.publicbooks.org",
+      "category": "arts",
+      "tags": [
+        "academia",
+        "arts"
+      ],
+      "quality_score": 7,
+      "last_included": null
+    },
+    {
+      "title": "3 Quarks Daily",
+      "xmlUrl": "https://3quarksdaily.com/3quarksdaily/atom.xml",
+      "htmlUrl": "https://3quarksdaily.com",
+      "category": "philosophy",
+      "tags": [
+        "philosophy",
+        "eclectic"
+      ],
+      "quality_score": 7,
+      "last_included": null
+    },
+    {
+      "title": "Philosophy Bites",
+      "xmlUrl": "https://philosophybites.com/atom.xml",
+      "htmlUrl": "https://philosophybites.com",
+      "category": "philosophy",
+      "tags": [
+        "philosophy",
+        "interviews"
+      ],
+      "quality_score": 7,
+      "last_included": null
+    },
+    {
+      "title": "JSTOR Daily",
+      "xmlUrl": "https://daily.jstor.org/feed/",
+      "htmlUrl": "https://daily.jstor.org",
+      "category": "history",
+      "tags": [
+        "history",
+        "academic"
+      ],
+      "quality_score": 8,
+      "last_included": null
+    },
+    {
+      "title": "Lapham's Quarterly",
+      "xmlUrl": "https://www.laphamsquarterly.org/rss.xml",
+      "htmlUrl": "https://www.laphamsquarterly.org",
+      "category": "history",
+      "tags": [
+        "history",
+        "culture"
+      ],
+      "quality_score": 7,
+      "last_included": null
+    },
+    {
+      "title": "STAT News",
+      "xmlUrl": "https://www.statnews.com/feed/",
+      "htmlUrl": "https://www.statnews.com",
+      "category": "health",
+      "tags": [
+        "health",
+        "science"
+      ],
+      "quality_score": 8,
+      "last_included": null
+    },
+    {
+      "title": "APTN News",
+      "xmlUrl": "https://www.aptnnews.ca/feed/",
+      "htmlUrl": "https://www.aptnnews.ca",
+      "category": "news",
+      "tags": [
+        "indigenous",
+        "canada"
+      ],
+      "quality_score": 7,
+      "last_included": null
+    },
+    {
+      "title": "The Tyee",
+      "xmlUrl": "https://thetyee.ca/rss2.xml",
+      "htmlUrl": "https://thetyee.ca",
+      "category": "news",
+      "tags": [
+        "canada",
+        "independent"
+      ],
+      "quality_score": 7,
+      "last_included": null
+    },
+    {
+      "title": "Labor Notes",
+      "xmlUrl": "https://labornotes.org/rss.xml",
+      "htmlUrl": "https://labornotes.org",
+      "category": "labor",
+      "tags": [
+        "labor",
+        "workers"
+      ],
+      "quality_score": 7,
+      "last_included": null
+    },
+    {
+      "title": "Jacobin",
+      "xmlUrl": "https://jacobin.com/feed/",
+      "htmlUrl": "https://jacobin.com",
+      "category": "labor",
+      "tags": [
+        "labor",
+        "politics"
+      ],
+      "quality_score": 7,
+      "last_included": null
+    },
+    {
+      "title": "Serious Eats",
+      "xmlUrl": "https://www.seriouseats.com/feeds/all",
+      "htmlUrl": "https://www.seriouseats.com",
+      "category": "food",
+      "tags": [
+        "food",
+        "science"
+      ],
+      "quality_score": 7,
+      "last_included": null
+    },
+    {
+      "title": "Eater",
+      "xmlUrl": "https://www.eater.com/rss/index.xml",
+      "htmlUrl": "https://www.eater.com",
+      "category": "food",
+      "tags": [
+        "food",
+        "culture"
+      ],
+      "quality_score": 6,
+      "last_included": null
+    },
+    {
+      "title": "Strong Towns",
+      "xmlUrl": "https://www.strongtowns.org/journal?format=rss",
+      "htmlUrl": "https://www.strongtowns.org",
+      "category": "urban",
+      "tags": [
+        "urban",
+        "planning"
+      ],
+      "quality_score": 7,
+      "last_included": null
+    },
+    {
+      "title": "Yale Environment 360",
+      "xmlUrl": "https://e360.yale.edu/feed",
+      "htmlUrl": "https://e360.yale.edu",
+      "category": "environment",
+      "tags": [
+        "environment",
+        "science"
+      ],
+      "quality_score": 8,
+      "last_included": "2026-03-19T13:42:38.758823"
+    },
+    {
+      "title": "Hakai Magazine",
+      "xmlUrl": "https://hakaimagazine.com/feed/",
+      "htmlUrl": "https://hakaimagazine.com",
+      "category": "environment",
+      "tags": [
+        "ocean",
+        "environment"
+      ],
+      "quality_score": 7,
+      "last_included": null
+    },
+    {
+      "title": "The Conversation",
+      "xmlUrl": "https://theconversation.com/articles.atom",
+      "htmlUrl": "https://theconversation.com",
+      "category": "news",
+      "tags": [
+        "academic",
+        "global"
+      ],
+      "quality_score": 7,
+      "last_included": null
+    },
+    {
+      "title": "openDemocracy",
+      "xmlUrl": "https://www.opendemocracy.net/en/rss.xml",
+      "htmlUrl": "https://www.opendemocracy.net",
+      "category": "news",
+      "tags": [
+        "democracy",
+        "global"
+      ],
+      "quality_score": 7,
       "last_included": null
     }
   ]

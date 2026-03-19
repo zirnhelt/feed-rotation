@@ -3,5 +3,6 @@
   "rotation_frequency_days": 7,
   "min_days_between_includes": 28,
   "quality_weight": 0.7,
-  "randomness_weight": 0.3
+  "randomness_weight": 0.3,
+  "max_per_category": 2
 }

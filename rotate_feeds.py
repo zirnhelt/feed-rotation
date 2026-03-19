@@ -27,17 +27,19 @@ def load_opml(filepath):
 
 def select_discovery_feeds(pool, config):
     """
-    Select feeds based on quality, recency, and randomness
-    
+    Select feeds based on quality, recency, randomness, and category diversity.
+
     Selection algorithm:
     1. Filter out feeds that were included too recently
     2. Score remaining feeds based on quality and randomness
-    3. Select top N feeds by score
+    3. Greedily select top-scoring feeds while capping picks per category
+       (ensures each rotation spans multiple content domains)
     """
     eligible = []
     today = datetime.now()
     min_gap = timedelta(days=config['min_days_between_includes'])
-    
+    max_per_category = config.get('max_per_category', 2)
+
     for feed in pool['feeds']:
         if feed['last_included'] is None:
             eligible.append(feed)
@@ -45,25 +47,34 @@ def select_discovery_feeds(pool, config):
             last_date = datetime.fromisoformat(feed['last_included'])
             if today - last_date >= min_gap:
                 eligible.append(feed)
-    
+
     print(f"  Eligible feeds: {len(eligible)} out of {len(pool['feeds'])}")
-    
+
     # Score each feed
     scored_feeds = []
     for feed in eligible:
         quality_score = feed['quality_score'] / 10.0
         random_score = random.random()
-        
+
         final_score = (
             config['quality_weight'] * quality_score +
             config['randomness_weight'] * random_score
         )
         scored_feeds.append((final_score, feed))
-    
-    # Sort by score and take top N
+
     scored_feeds.sort(reverse=True, key=lambda x: x[0])
-    selected = [feed for score, feed in scored_feeds[:config['num_discovery_feeds']]]
-    
+
+    # Greedy selection with per-category cap for cross-domain diversity
+    selected = []
+    category_counts = {}
+    for score, feed in scored_feeds:
+        if len(selected) >= config['num_discovery_feeds']:
+            break
+        cat = feed.get('category', 'uncategorized')
+        if category_counts.get(cat, 0) < max_per_category:
+            selected.append(feed)
+            category_counts[cat] = category_counts.get(cat, 0) + 1
+
     return selected
 
 def create_combined_opml(core_tree, discovery_feeds):
