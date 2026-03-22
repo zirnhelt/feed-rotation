@@ -2,7 +2,7 @@
 <opml version="2.0">
   <head>
     <title>Feed Rotation - Generated</title>
-    <dateCreated>2026-03-19T13:42:38.764006</dateCreated>
+    <dateCreated>2026-03-22T04:08:26.231822</dateCreated>
   </head>
   <body>
     <outline text="Science &amp; Deep Thinking" title="Science &amp; Deep Thinking">
@@ -31,11 +31,11 @@
       <outline type="rss" text="Quesnel Cariboo Observer" title="Quesnel Cariboo Observer" xmlUrl="https://www.quesnelobserver.com/feed/" htmlUrl="https://www.quesnelobserver.com" />
     </outline>
     <outline text="Discovery Rotation" title="Discovery Rotation">
-      <outline type="rss" text="The Atlantic – Culture" title="The Atlantic – Culture" xmlUrl="https://www.theatlantic.com/feed/channel/culture/" htmlUrl="https://www.theatlantic.com/culture/" />
-      <outline type="rss" text="Kottke.org" title="Kottke.org" xmlUrl="https://feeds.kottke.org/main" htmlUrl="https://kottke.org" />
-      <outline type="rss" text="Literary Hub" title="Literary Hub" xmlUrl="https://lithub.com/feed/" htmlUrl="https://lithub.com" />
-      <outline type="rss" text="The Paris Review Daily" title="The Paris Review Daily" xmlUrl="https://www.theparisreview.org/feed/" htmlUrl="https://www.theparisreview.org" />
-      <outline type="rss" text="Yale Environment 360" title="Yale Environment 360" xmlUrl="https://e360.yale.edu/feed" htmlUrl="https://e360.yale.edu" />
+      <outline type="rss" text="Scientific American" title="Scientific American" xmlUrl="https://www.scientificamerican.com/feed/" htmlUrl="https://www.scientificamerican.com" />
+      <outline type="rss" text="JSTOR Daily" title="JSTOR Daily" xmlUrl="https://daily.jstor.org/feed/" htmlUrl="https://daily.jstor.org" />
+      <outline type="rss" text="Lapham's Quarterly" title="Lapham's Quarterly" xmlUrl="https://www.laphamsquarterly.org/rss.xml" htmlUrl="https://www.laphamsquarterly.org" />
+      <outline type="rss" text="Futility Closet" title="Futility Closet" xmlUrl="https://www.futilitycloset.com/feed/" htmlUrl="https://www.futilitycloset.com" />
+      <outline type="rss" text="The Conversation" title="The Conversation" xmlUrl="https://theconversation.com/articles.atom" htmlUrl="https://theconversation.com" />
     </outline>
   </body>
 </opml>
