@@ -43,8 +43,8 @@ def select_discovery_feeds(pool, config):
     skip_paywalled = config.get('skip_paywalled', True)
 
     for feed in pool['feeds']:
-        # Skip feeds confirmed as paywalled (if the option is enabled)
-        if skip_paywalled and feed.get('paywall_status') == 'paywalled':
+        # Skip feeds confirmed as paywalled, unless you have a subscription
+        if skip_paywalled and feed.get('paywall_status') == 'paywalled' and not feed.get('subscriber'):
             continue
 
         if feed['last_included'] is None:

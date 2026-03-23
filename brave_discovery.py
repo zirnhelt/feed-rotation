@@ -85,6 +85,78 @@ ADBLOCK_PHRASES = [
     "ad revenue",
 ]
 
+# Domains that are RSS tools, directories, aggregators, or library guides —
+# not actual content sources. Results from these are discarded during discovery.
+AGGREGATOR_DOMAINS = {
+    # RSS directories / catalogs
+    "feedspot.com", "rss.feedspot.com", "bloggers.feedspot.com",
+    "rsscatalog.com", "cyberseo.net", "rss.app", "rss.com",
+    "feeder.co", "inoreader.com", "feedly.com", "newsblur.com",
+    "allrss.com", "blogtopsites.com",
+    # Feed reader / tool platforms
+    "zapier.com", "make.com", "ifttt.com",
+    # Social / aggregator sites (not original content)
+    "reddit.com", "quora.com", "github.com", "stackoverflow.com",
+    "medium.com",  # platform, not a source; individual blogs are ok but domain-level is noise
+    # Library guides (course content, not feeds)
+    "libguides.com", "libguides.nyit.edu", "libguides.udayton.edu",
+    "lib.guides.umd.edu", "guides.himmelfarb.gwu.edu",
+    "subr.libguides.com", "epcc.libguides.com", "orlandova.libguides.com",
+    "oad.simmons.edu", "fullsail.libguides.com",
+    # Press-release / newswire aggregators
+    "einnews.com", "environment.einnews.com", "newswise.com",
+    "prnewswire.com", "businesswire.com",
+    # Misc junk from previous runs
+    "daige.st", "devopsschool.com", "ssp.sh",
+}
+
+# Title / description patterns that indicate the search result is a page
+# *about* RSS (a directory, guide, or list) rather than an actual content source.
+AGGREGATOR_TITLE_PATTERNS = [
+    r"\bbest\b.{0,30}\brss\b",
+    r"\btop\b.{0,30}\brss\b",
+    r"\brss feed[s]?\b.{0,20}\b(list|catalog|directory|reader|tool|aggregator)\b",
+    r"\b(list|catalog|directory)\b.{0,30}\brss\b",
+    r"\bhow to\b.{0,30}\brss\b",
+    r"\brss reader[s]?\b",
+    r"\bfeed reader[s]?\b",
+    r"\bfeed aggregator[s]?\b",
+    r"\bnews aggregator[s]?\b",
+    r"\brss news feed[s]?\b",          # "Technology RSS News Feeds"
+    r"\brss feed[s]? from\b",          # "RSS feeds from ..."
+    r"\brss feed[s]? \|",              # "RSS Feeds | SomeSite"
+    r"\| rss feed[s]?\b",
+    r"\brss feed[s]? ::",              # "RSS Feeds :: SomeSite"
+    r"get .{0,20} news by rss",
+    r"subscribe for free \|",          # "Subscribe for free | 2 Minute Medicine" (misleading title)
+    r"\brss catalog\b",
+    r"\brss info\b",
+    r"\bsyndication.{0,20}feed\b",
+    r"libguide",
+    r"research guide",
+    r"course guide",
+]
+
+_AGGREGATOR_RE = re.compile(
+    "|".join(AGGREGATOR_TITLE_PATTERNS), re.IGNORECASE
+)
+
+
+def is_aggregator_result(domain: str, title: str, url: str) -> bool:
+    """Return True if this search result is a feed directory/tool, not a content source."""
+    clean = domain.replace("www.", "")
+    # Check domain blocklist (exact match or subdomain)
+    if clean in AGGREGATOR_DOMAINS or any(clean.endswith("." + d) for d in AGGREGATOR_DOMAINS):
+        return True
+    # Reject university libguide subdomains (e.g. *.libguides.com)
+    if "libguides" in domain or "lib.guides" in domain:
+        return True
+    # Check title / URL patterns
+    if _AGGREGATOR_RE.search(title) or _AGGREGATOR_RE.search(url):
+        return True
+    return False
+
+
 # Search queries per category for discovering new feeds
 DISCOVERY_QUERIES = {
     "tech": [
@@ -175,7 +247,10 @@ def check_paywall(domain: str, api_key: str) -> dict:
     if clean in KNOWN_PAYWALLS:
         return {"paywalled": True, "evidence": "known paywall list", "confidence": "high"}
 
-    # --- pass 2: scan organic snippets ---
+    # Scan organic snippets from `site:domain` results.
+    # We deliberately do NOT run a targeted "paywall" keyword search: any site
+    # that writes about media/tech will mention the word "paywall" in articles,
+    # producing massive false-positive rates (BBC, Guardian, Kottke, etc.).
     results = brave_search(f"site:{domain}", api_key, count=5)
     web_results = results.get("web", {}).get("results", [])
 
@@ -186,9 +261,8 @@ def check_paywall(domain: str, api_key: str) -> dict:
         )
         found = [p for p in PAYWALL_PHRASES if p in all_text]
         if found:
-            # Before flagging: check whether this looks like an adblock wall,
-            # not a content paywall. Adblock messages often contain subscribe-
-            # adjacent language but aren't restricting content access.
+            # Adblock nag screens use subscribe-adjacent language; don't
+            # confuse them with actual content-access restrictions.
             adblock_signals = [p for p in ADBLOCK_PHRASES if p in all_text]
             if adblock_signals:
                 return {
@@ -201,31 +275,6 @@ def check_paywall(domain: str, api_key: str) -> dict:
                 "evidence": f"snippet phrases: {', '.join(found)}",
                 "confidence": "medium",
             }
-
-    # --- pass 3: explicit paywall search ---
-    pw_results = brave_search(
-        f'site:{domain} "subscribe" OR "paywall" OR "sign in to read"',
-        api_key,
-        count=3,
-    )
-    pw_text = " ".join(
-        (r.get("description", "") + " " + r.get("title", "")).lower()
-        for r in pw_results.get("web", {}).get("results", [])
-    )
-    found_pw = [p for p in PAYWALL_PHRASES if p in pw_text]
-    if found_pw:
-        adblock_signals = [p for p in ADBLOCK_PHRASES if p in pw_text]
-        if adblock_signals:
-            return {
-                "paywalled": False,
-                "evidence": f"adblock wall only: {', '.join(adblock_signals)}",
-                "confidence": "medium",
-            }
-        return {
-            "paywalled": True,
-            "evidence": f"paywall search: {', '.join(found_pw)}",
-            "confidence": "medium",
-        }
 
     return {"paywalled": False, "evidence": "no paywall indicators found", "confidence": "medium"}
 
@@ -395,6 +444,12 @@ def discover_feeds(categories: list, api_key: str, pool: dict) -> list:
                     continue
                 seen_domains.add(domain)
 
+                title = r.get("title", "")
+                url = r.get("url", "")
+
+                if is_aggregator_result(domain, title, url):
+                    continue  # silently skip RSS directories / tools
+
                 if domain_in_pool(domain, pool):
                     print(f"    Skip (already in pool): {domain}")
                     continue
@@ -416,8 +471,13 @@ def discover_feeds(categories: list, api_key: str, pool: dict) -> list:
                     continue
 
                 quality = infer_quality(r.get("description", ""))
+                # Use the search-result title but strip boilerplate RSS suffixes
+                raw_title = r.get("title", domain)
+                clean_title = re.sub(
+                    r"\s*[\|\-–]\s*(RSS|Atom|Feed|Feeds|Subscribe).*$", "", raw_title, flags=re.IGNORECASE
+                ).strip() or domain
                 entry = {
-                    "title": r.get("title", domain),
+                    "title": clean_title,
                     "xmlUrl": feed_url,
                     "htmlUrl": site_url,
                     "category": category,
