@@ -11,7 +11,7 @@
       ],
       "quality_score": 8,
       "last_included": "2026-03-15T04:22:18.313894",
-      "paywall_status": "paywalled"
+      "paywall_status": "free"
     },
     {
       "title": "Kottke.org",
@@ -24,7 +24,7 @@
       ],
       "quality_score": 8,
       "last_included": "2026-03-19T13:42:38.758823",
-      "paywall_status": "paywalled"
+      "paywall_status": "free"
     },
     {
       "title": "Metafilter",
@@ -37,7 +37,7 @@
       ],
       "quality_score": 7,
       "last_included": "2026-02-22T04:05:28.670388",
-      "paywall_status": "paywalled"
+      "paywall_status": "free"
     },
     {
       "title": "Boing Boing",
@@ -50,7 +50,7 @@
       ],
       "quality_score": 6,
       "last_included": "2026-03-01T04:11:20.057979",
-      "paywall_status": "paywalled"
+      "paywall_status": "free"
     },
     {
       "title": "The Atlantic \u2013 Culture",
@@ -89,7 +89,7 @@
       ],
       "quality_score": 7,
       "last_included": "2026-02-22T04:05:28.670388",
-      "paywall_status": "paywalled"
+      "paywall_status": "free"
     },
     {
       "title": "Creative Review",
@@ -128,7 +128,7 @@
       ],
       "quality_score": 7,
       "last_included": "2026-03-08T03:59:58.397986",
-      "paywall_status": "paywalled"
+      "paywall_status": "free"
     },
     {
       "title": "BBC World News",
@@ -141,7 +141,7 @@
       ],
       "quality_score": 7,
       "last_included": "2026-03-08T03:59:58.397986",
-      "paywall_status": "paywalled"
+      "paywall_status": "free"
     },
     {
       "title": "The Guardian \u2013 Global Development",
@@ -154,7 +154,7 @@
       ],
       "quality_score": 7,
       "last_included": "2026-03-15T04:22:18.313894",
-      "paywall_status": "paywalled"
+      "paywall_status": "free"
     },
     {
       "title": "Al Jazeera English",
@@ -167,7 +167,7 @@
       ],
       "quality_score": 7,
       "last_included": "2026-02-22T04:05:28.670388",
-      "paywall_status": "paywalled"
+      "paywall_status": "free"
     },
     {
       "title": "Reuters Top News",
@@ -180,7 +180,7 @@
       ],
       "quality_score": 7,
       "last_included": "2026-01-15T22:46:44.589823",
-      "paywall_status": "paywalled"
+      "paywall_status": "free"
     },
     {
       "title": "AP News",
@@ -193,7 +193,7 @@
       ],
       "quality_score": 7,
       "last_included": "2026-02-01T04:18:58.312392",
-      "paywall_status": "paywalled"
+      "paywall_status": "free"
     },
     {
       "title": "Business Insider",
@@ -232,7 +232,7 @@
       ],
       "quality_score": 7,
       "last_included": "2026-03-08T03:59:58.397986",
-      "paywall_status": "paywalled"
+      "paywall_status": "free"
     },
     {
       "title": "The Progressive Economics Forum",
@@ -271,7 +271,7 @@
       ],
       "quality_score": 6,
       "last_included": "2026-02-08T04:24:18.134204",
-      "paywall_status": "paywalled"
+      "paywall_status": "free"
     },
     {
       "title": "Scientific American",
@@ -323,7 +323,7 @@
       ],
       "quality_score": 5,
       "last_included": null,
-      "paywall_status": "paywalled"
+      "paywall_status": "free"
     },
     {
       "title": "Techcouver.com",
@@ -349,7 +349,7 @@
       ],
       "quality_score": 4,
       "last_included": null,
-      "paywall_status": "paywalled"
+      "paywall_status": "free"
     },
     {
       "title": "Lifehacker",
@@ -362,7 +362,7 @@
       ],
       "quality_score": 5,
       "last_included": null,
-      "paywall_status": "paywalled"
+      "paywall_status": "free"
     },
     {
       "title": "MakeUseOf.com",
@@ -375,7 +375,7 @@
       ],
       "quality_score": 4,
       "last_included": null,
-      "paywall_status": "paywalled"
+      "paywall_status": "free"
     },
     {
       "title": "Mental Floss",
@@ -388,7 +388,7 @@
       ],
       "quality_score": 5,
       "last_included": null,
-      "paywall_status": "paywalled"
+      "paywall_status": "free"
     },
     {
       "title": "Gizmodo",
@@ -401,7 +401,7 @@
       ],
       "quality_score": 5,
       "last_included": null,
-      "paywall_status": "paywalled"
+      "paywall_status": "free"
     },
     {
       "title": "Engadget",
@@ -414,7 +414,7 @@
       ],
       "quality_score": 5,
       "last_included": null,
-      "paywall_status": "paywalled"
+      "paywall_status": "free"
     },
     {
       "title": "Articles (Dangerous Minds)",
@@ -427,19 +427,6 @@
       ],
       "quality_score": 6,
       "last_included": "2026-03-01T04:11:20.057979",
-      "paywall_status": "paywalled"
-    },
-    {
-      "title": "New Projects : Kickstarter",
-      "xmlUrl": "http://www.kickstarter.com/projects/feed.atom",
-      "htmlUrl": "https://www.kickstarter.com/discover/pwl",
-      "category": "innovation",
-      "tags": [
-        "crowdfunding",
-        "projects"
-      ],
-      "quality_score": 4,
-      "last_included": null,
       "paywall_status": "free"
     },
     {
@@ -466,7 +453,7 @@
       ],
       "quality_score": 6,
       "last_included": "2026-02-08T04:24:18.134204",
-      "paywall_status": "paywalled"
+      "paywall_status": "free"
     },
     {
       "title": "Google Operating System",
@@ -495,19 +482,6 @@
       "paywall_status": "free"
     },
     {
-      "title": "News \u2013 SmartThings Blog",
-      "xmlUrl": "http://blog.smartthings.com/category/news/feed/",
-      "htmlUrl": "https://blog.smartthings.com",
-      "category": "smart-home",
-      "tags": [
-        "iot",
-        "smart-home"
-      ],
-      "quality_score": 5,
-      "last_included": "2026-02-08T04:24:18.134204",
-      "paywall_status": "free"
-    },
-    {
       "title": "CNET Smart Home",
       "xmlUrl": "http://www.cnet.com/rss/smart-home/",
       "htmlUrl": "https://www.cnet.com",
@@ -518,7 +492,7 @@
       ],
       "quality_score": 5,
       "last_included": null,
-      "paywall_status": "paywalled"
+      "paywall_status": "free"
     },
     {
       "title": "Note to Self",
@@ -544,7 +518,8 @@
       ],
       "quality_score": 8,
       "last_included": "2026-02-15T04:10:35.133349",
-      "paywall_status": "paywalled"
+      "paywall_status": "free",
+      "subscriber": true
     },
     {
       "title": "Literary Hub",
@@ -557,7 +532,7 @@
       ],
       "quality_score": 8,
       "last_included": "2026-03-19T13:42:38.758823",
-      "paywall_status": "paywalled"
+      "paywall_status": "free"
     },
     {
       "title": "The Paris Review Daily",
@@ -570,7 +545,7 @@
       ],
       "quality_score": 8,
       "last_included": "2026-03-19T13:42:38.758823",
-      "paywall_status": "paywalled"
+      "paywall_status": "free"
     },
     {
       "title": "Public Books",
@@ -596,7 +571,7 @@
       ],
       "quality_score": 7,
       "last_included": null,
-      "paywall_status": "paywalled"
+      "paywall_status": "free"
     },
     {
       "title": "Philosophy Bites",
@@ -648,7 +623,7 @@
       ],
       "quality_score": 8,
       "last_included": null,
-      "paywall_status": "paywalled"
+      "paywall_status": "free"
     },
     {
       "title": "APTN News",
@@ -674,7 +649,7 @@
       ],
       "quality_score": 7,
       "last_included": null,
-      "paywall_status": "paywalled"
+      "paywall_status": "free"
     },
     {
       "title": "Labor Notes",
@@ -700,7 +675,7 @@
       ],
       "quality_score": 7,
       "last_included": null,
-      "paywall_status": "paywalled"
+      "paywall_status": "free"
     },
     {
       "title": "Serious Eats",
@@ -713,7 +688,7 @@
       ],
       "quality_score": 7,
       "last_included": null,
-      "paywall_status": "paywalled"
+      "paywall_status": "free"
     },
     {
       "title": "Eater",
@@ -726,7 +701,7 @@
       ],
       "quality_score": 6,
       "last_included": null,
-      "paywall_status": "paywalled"
+      "paywall_status": "free"
     },
     {
       "title": "Strong Towns",
@@ -739,7 +714,7 @@
       ],
       "quality_score": 7,
       "last_included": null,
-      "paywall_status": "paywalled"
+      "paywall_status": "free"
     },
     {
       "title": "Yale Environment 360",
@@ -778,7 +753,7 @@
       ],
       "quality_score": 7,
       "last_included": "2026-03-22T04:08:26.231053",
-      "paywall_status": "paywalled"
+      "paywall_status": "free"
     },
     {
       "title": "openDemocracy",
@@ -791,7 +766,7 @@
       ],
       "quality_score": 7,
       "last_included": null,
-      "paywall_status": "paywalled"
+      "paywall_status": "free"
     },
     {
       "title": "RSS feeds Archives - Software Engineering Daily",
@@ -803,79 +778,8 @@
         "brave-api"
       ],
       "quality_score": 6,
-      "last_included": null
-    },
-    {
-      "title": "Software Development Articles and Blogs - Syndication, Feed, and RSS Info - developer.*, Developer Dot Star",
-      "xmlUrl": "http://www.developerdotstar.com/mag/rss/devdotstar.xml",
-      "htmlUrl": "https://www.developerdotstar.com",
-      "category": "tech",
-      "tags": [
-        "discovered",
-        "brave-api"
-      ],
-      "quality_score": 5,
-      "last_included": null
-    },
-    {
-      "title": "Software Development RSS Feeds - RSS Catalog",
-      "xmlUrl": "https://www.cyberseo.net/feed/",
-      "htmlUrl": "https://www.cyberseo.net",
-      "category": "tech",
-      "tags": [
-        "discovered",
-        "brave-api"
-      ],
-      "quality_score": 5,
-      "last_included": null
-    },
-    {
-      "title": "Ten Open Source RSS News Readers for Smartphones | Welcome to The Privacy Dad's Blog!",
-      "xmlUrl": "https://theprivacydad.com/feed/",
-      "htmlUrl": "https://theprivacydad.com",
-      "category": "tech",
-      "tags": [
-        "discovered",
-        "brave-api"
-      ],
-      "quality_score": 5,
-      "last_included": null
-    },
-    {
-      "title": "The Best Self-Hosted RSS Feed Readers",
-      "xmlUrl": "https://lukesingham.com/feed.xml",
-      "htmlUrl": "https://lukesingham.com",
-      "category": "tech",
-      "tags": [
-        "discovered",
-        "brave-api"
-      ],
-      "quality_score": 6,
-      "last_included": null
-    },
-    {
-      "title": "longform.org | Jim Nelson",
-      "xmlUrl": "https://j-nelson.net/feed/",
-      "htmlUrl": "https://j-nelson.net",
-      "category": "culture",
-      "tags": [
-        "discovered",
-        "brave-api"
-      ],
-      "quality_score": 6,
-      "last_included": null
-    },
-    {
-      "title": "Custom Email Notifications and RSS | Books on Dramatic Literature, Criticism, and Theory, The University Press of Kentucky | Theatre and Performance Studies | University of Kentucky",
-      "xmlUrl": "https://uknowledge.uky.edu/recent.rss",
-      "htmlUrl": "https://uknowledge.uky.edu",
-      "category": "culture",
-      "tags": [
-        "discovered",
-        "brave-api"
-      ],
-      "quality_score": 5,
-      "last_included": null
+      "last_included": null,
+      "paywall_status": "free"
     },
     {
       "title": "(Un)popular Cultures - A blog exploring the unusual & Inspirational",
@@ -887,7 +791,8 @@
         "brave-api"
       ],
       "quality_score": 5,
-      "last_included": null
+      "last_included": null,
+      "paywall_status": "free"
     },
     {
       "title": "Cultural Maturity \u2013 A Blog for the Future",
@@ -899,19 +804,8 @@
         "brave-api"
       ],
       "quality_score": 5,
-      "last_included": null
-    },
-    {
-      "title": "News Feeds | Climate Change Resources",
-      "xmlUrl": "https://climatechangeresources.org/rss.xml",
-      "htmlUrl": "https://climatechangeresources.org",
-      "category": "environment",
-      "tags": [
-        "discovered",
-        "brave-api"
-      ],
-      "quality_score": 5,
-      "last_included": null
+      "last_included": null,
+      "paywall_status": "free"
     },
     {
       "title": "Feeds | NOAA Climate.gov",
@@ -923,7 +817,8 @@
         "brave-api"
       ],
       "quality_score": 5,
-      "last_included": null
+      "last_included": null,
+      "paywall_status": "free"
     },
     {
       "title": "Climate Solutions RSS Feeds | Climate Solutions",
@@ -935,7 +830,8 @@
         "brave-api"
       ],
       "quality_score": 5,
-      "last_included": null
+      "last_included": null,
+      "paywall_status": "free"
     },
     {
       "title": "RSS Feeds",
@@ -947,7 +843,8 @@
         "brave-api"
       ],
       "quality_score": 5,
-      "last_included": null
+      "last_included": null,
+      "paywall_status": "free"
     },
     {
       "title": "RSS News Feeds | National Institute of Environmental Health Sciences",
@@ -959,31 +856,8 @@
         "brave-api"
       ],
       "quality_score": 6,
-      "last_included": null
-    },
-    {
-      "title": "Environment News RSS Feeds from GreenEnvironmentNews.com",
-      "xmlUrl": "https://feeds2.feedburner.com/GreenenvironmentnewscomAgricultureEnvironmentNews",
-      "htmlUrl": "https://www.greenenvironmentnews.com",
-      "category": "environment",
-      "tags": [
-        "discovered",
-        "brave-api"
-      ],
-      "quality_score": 5,
-      "last_included": null
-    },
-    {
-      "title": "Get Environment News by RSS - Environmental News Today",
-      "xmlUrl": "https://environment.einnews.com/rss",
-      "htmlUrl": "https://environment.einnews.com",
-      "category": "environment",
-      "tags": [
-        "discovered",
-        "brave-api"
-      ],
-      "quality_score": 5,
-      "last_included": null
+      "last_included": null,
+      "paywall_status": "free"
     },
     {
       "title": "RSS Feeds :: Sustainability Matters",
@@ -995,7 +869,8 @@
         "brave-api"
       ],
       "quality_score": 5,
-      "last_included": null
+      "last_included": null,
+      "paywall_status": "free"
     },
     {
       "title": "Green Lodging News RSS Feeds | Green Lodging News",
@@ -1007,19 +882,8 @@
         "brave-api"
       ],
       "quality_score": 5,
-      "last_included": null
-    },
-    {
-      "title": "Economics RSS Feeds - RSS Catalog",
-      "xmlUrl": "https://www.cyberseo.net/feed/",
-      "htmlUrl": "https://www.cyberseo.net",
-      "category": "economics",
-      "tags": [
-        "discovered",
-        "brave-api"
-      ],
-      "quality_score": 7,
-      "last_included": null
+      "last_included": null,
+      "paywall_status": "free"
     },
     {
       "title": "Levy News RSS Feed",
@@ -1031,7 +895,8 @@
         "brave-api"
       ],
       "quality_score": 5,
-      "last_included": null
+      "last_included": null,
+      "paywall_status": "free"
     },
     {
       "title": "RSS feeds | Global Health: Science and Practice",
@@ -1043,7 +908,8 @@
         "brave-api"
       ],
       "quality_score": 5,
-      "last_included": null
+      "last_included": null,
+      "paywall_status": "free"
     },
     {
       "title": "RSS Feeds | National Institute of Biomedical Imaging and Bioengineering",
@@ -1055,7 +921,8 @@
         "brave-api"
       ],
       "quality_score": 5,
-      "last_included": null
+      "last_included": null,
+      "paywall_status": "free"
     },
     {
       "title": "Subscribe for free | 2 Minute Medicine",
@@ -1067,43 +934,8 @@
         "brave-api"
       ],
       "quality_score": 5,
-      "last_included": null
-    },
-    {
-      "title": "Health and Medical RSS Feeds and News Syndication from MedicineNet ...",
-      "xmlUrl": "https://www.medicinenet.com/rss/dailyhealth.xml",
-      "htmlUrl": "https://www.medicinenet.com",
-      "category": "health",
-      "tags": [
-        "discovered",
-        "brave-api"
-      ],
-      "quality_score": 5,
-      "last_included": null
-    },
-    {
-      "title": "Philosophy RSS feeds",
-      "xmlUrl": "https://www.cyberseo.net/feed/",
-      "htmlUrl": "https://www.cyberseo.net",
-      "category": "philosophy",
-      "tags": [
-        "discovered",
-        "brave-api"
-      ],
-      "quality_score": 6,
-      "last_included": null
-    },
-    {
-      "title": "Hippocratical: Medical Ethics Podcast | RSS.com",
-      "xmlUrl": "https://rss.com/blog/feed/",
-      "htmlUrl": "https://rss.com",
-      "category": "philosophy",
-      "tags": [
-        "discovered",
-        "brave-api"
-      ],
-      "quality_score": 5,
-      "last_included": null
+      "last_included": null,
+      "paywall_status": "free"
     }
   ]
 }
