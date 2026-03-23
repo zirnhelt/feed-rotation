@@ -29,7 +29,9 @@ from pathlib import Path
 
 BRAVE_API_URL = "https://api.search.brave.com/res/v1/web/search"
 
-# Hard-coded known-paywall domains for fast first-pass filtering
+# Hard-coded known-paywall domains for fast first-pass filtering.
+# Only include domains where virtually ALL content requires a subscription.
+# medium.com and substack.com are NOT here — they host many free RSS feeds.
 KNOWN_PAYWALLS = {
     "nytimes.com",
     "wsj.com",
@@ -44,32 +46,43 @@ KNOWN_PAYWALLS = {
     "hbr.org",
     "foreignaffairs.com",
     "spectator.co.uk",
-    "newstatesman.com",
     "thetimes.co.uk",
     "telegraph.co.uk",
-    "medium.com",
-    "substack.com",
 }
 
-# Phrases that indicate paywalled content when found in search snippets
+# Hard paywall phrases — unambiguous access-denial language.
+# Deliberately narrow to avoid false positives from adblock nag screens.
 PAYWALL_PHRASES = [
     "subscriber only",
     "subscribe to read",
-    "subscribe to continue",
+    "subscribe to continue reading",
     "sign in to read",
-    "sign up to read",
-    "members only",
-    "for subscribers",
-    "paywall",
-    "premium content",
-    "to continue reading",
-    "unlimited access",
-    "subscription required",
     "log in to read",
+    "members only",
+    "for subscribers only",
+    "paywall",
+    "subscription required",
     "register to read",
     "exclusive for subscribers",
     "free articles left",
-    "articles remaining",
+    "articles remaining this month",
+    "metered paywall",
+]
+
+# Phrases that indicate an adblock detection wall, NOT a content paywall.
+# If these appear alongside paywall-ish language, we treat the site as free.
+ADBLOCK_PHRASES = [
+    "ad blocker",
+    "adblocker",
+    "adblock",
+    "disable your ad",
+    "turn off your ad",
+    "whitelist",
+    "we noticed you",
+    "please allow ads",
+    "ad-free experience",
+    "support us by disabling",
+    "ad revenue",
 ]
 
 # Search queries per category for discovering new feeds
@@ -173,6 +186,16 @@ def check_paywall(domain: str, api_key: str) -> dict:
         )
         found = [p for p in PAYWALL_PHRASES if p in all_text]
         if found:
+            # Before flagging: check whether this looks like an adblock wall,
+            # not a content paywall. Adblock messages often contain subscribe-
+            # adjacent language but aren't restricting content access.
+            adblock_signals = [p for p in ADBLOCK_PHRASES if p in all_text]
+            if adblock_signals:
+                return {
+                    "paywalled": False,
+                    "evidence": f"adblock wall only (not a content paywall): {', '.join(adblock_signals)}",
+                    "confidence": "medium",
+                }
             return {
                 "paywalled": True,
                 "evidence": f"snippet phrases: {', '.join(found)}",
@@ -191,6 +214,13 @@ def check_paywall(domain: str, api_key: str) -> dict:
     )
     found_pw = [p for p in PAYWALL_PHRASES if p in pw_text]
     if found_pw:
+        adblock_signals = [p for p in ADBLOCK_PHRASES if p in pw_text]
+        if adblock_signals:
+            return {
+                "paywalled": False,
+                "evidence": f"adblock wall only: {', '.join(adblock_signals)}",
+                "confidence": "medium",
+            }
         return {
             "paywalled": True,
             "evidence": f"paywall search: {', '.join(found_pw)}",
