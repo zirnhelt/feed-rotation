@@ -40,7 +40,13 @@ def select_discovery_feeds(pool, config):
     min_gap = timedelta(days=config['min_days_between_includes'])
     max_per_category = config.get('max_per_category', 2)
 
+    skip_paywalled = config.get('skip_paywalled', True)
+
     for feed in pool['feeds']:
+        # Skip feeds confirmed as paywalled (if the option is enabled)
+        if skip_paywalled and feed.get('paywall_status') == 'paywalled':
+            continue
+
         if feed['last_included'] is None:
             eligible.append(feed)
         else:

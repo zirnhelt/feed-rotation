@@ -1,0 +1,84 @@
+name: Brave Feed Discovery
+
+on:
+  schedule:
+    # Run monthly on the 1st at 3am UTC
+    - cron: '0 3 1 * *'
+  workflow_dispatch:
+    inputs:
+      mode:
+        description: 'Operation mode'
+        required: true
+        default: 'both'
+        type: choice
+        options:
+          - discover
+          - verify
+          - both
+      add_to_pool:
+        description: 'Auto-add discovered feeds to pool'
+        required: false
+        default: 'false'
+        type: boolean
+      categories:
+        description: 'Space-separated categories to search (leave blank for all)'
+        required: false
+        default: ''
+
+jobs:
+  discover:
+    runs-on: ubuntu-latest
+
+    permissions:
+      contents: write
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+
+    - name: Set up Python
+      uses: actions/setup-python@v5
+      with:
+        python-version: '3.11'
+
+    - name: Run Brave discovery
+      env:
+        BRAVE_API_KEY: ${{ secrets.BRAVE_API_KEY }}
+      run: |
+        MODE="${{ github.event.inputs.mode || 'both' }}"
+        ADD_FLAG=""
+        if [ "${{ github.event.inputs.add_to_pool }}" = "true" ]; then
+          ADD_FLAG="--add-to-pool"
+        fi
+        CATS="${{ github.event.inputs.categories }}"
+        CATS_FLAG=""
+        if [ -n "$CATS" ]; then
+          CATS_FLAG="--categories $CATS"
+        fi
+        python brave_discovery.py --mode "$MODE" $ADD_FLAG $CATS_FLAG
+
+    - name: Check for changes
+      id: check_changes
+      run: |
+        if git diff --quiet discovery_pool.json; then
+          echo "changes=false" >> $GITHUB_OUTPUT
+        else
+          echo "changes=true" >> $GITHUB_OUTPUT
+        fi
+
+    - name: Commit and push changes
+      if: steps.check_changes.outputs.changes == 'true'
+      run: |
+        git config --local user.email "github-actions[bot]@users.noreply.github.com"
+        git config --local user.name "github-actions[bot]"
+        git add discovery_pool.json brave_discovery_report.json
+        git commit -m "Auto: Brave feed discovery update ($(date +'%Y-%m-%d'))"
+        git push
+
+    - name: Upload report as artifact
+      uses: actions/upload-artifact@v4
+      if: always()
+      with:
+        name: brave-discovery-report-${{ github.run_number }}
+        path: brave_discovery_report.json
+        retention-days: 30
