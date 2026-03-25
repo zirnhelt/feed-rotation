@@ -10,6 +10,9 @@
   <head>
     <title>Podcast Feed Sources</title>
     <dateModified>2026-03-25</dateModified>
+    <!-- Feed audit 2026-03-25: removed My East Kootenay Now (off-region);
+         added CBC Politics, CTV News, iPolitics, Maclean's (Canadian national news).
+         CBC Top Stories already present as "CBC News". -->
   </head>
   <body>
 
@@ -44,12 +47,14 @@
       theme="saturday" source_type="local" />
     -->
 
-    <!-- My East Kootenay Now — added March 2026. Watch for 403 (same network as My Cariboo Now). -->
+    <!-- My East Kootenay Now — REMOVED 2026-03-25. Off-region: East Kootenay is not Cariboo.
+         Re-enable only if editorial scope explicitly expands beyond the Cariboo.
     <outline text="My East Kootenay Now" title="My East Kootenay Now"
       type="rss"
       xmlUrl="https://www.myeastkootenaynow.com/feed/"
       htmlUrl="https://www.myeastkootenaynow.com"
       theme="saturday" source_type="local" />
+    -->
 
 
     <!-- ═══════════════════════════════════════════════════════
@@ -68,6 +73,37 @@
       xmlUrl="https://www.cbc.ca/cmlink/rss-topstories"
       htmlUrl="https://www.cbc.ca/news"
       theme="all" source_type="broadcast" />
+
+
+    <!-- ═══════════════════════════════════════════════════════
+         CANADIAN NATIONAL NEWS
+         Federal politics, national affairs, and policy coverage.
+         theme="all" — surfaced on every day as national context.
+         ═══════════════════════════════════════════════════════ -->
+
+    <outline text="CBC Politics" title="CBC Politics"
+      type="rss"
+      xmlUrl="https://www.cbc.ca/cmlink/rss-politics"
+      htmlUrl="https://www.cbc.ca/news/politics"
+      theme="all" source_type="broadcast" />
+
+    <outline text="CTV News" title="CTV News"
+      type="rss"
+      xmlUrl="https://www.ctvnews.ca/rss/ctvnews-ca-top-stories-public-rss-1.822009"
+      htmlUrl="https://www.ctvnews.ca"
+      theme="all" source_type="broadcast" />
+
+    <outline text="iPolitics" title="iPolitics"
+      type="rss"
+      xmlUrl="https://ipolitics.ca/feed/"
+      htmlUrl="https://ipolitics.ca"
+      theme="all" source_type="digital" />
+
+    <outline text="Maclean's" title="Maclean's"
+      type="rss"
+      xmlUrl="https://www.macleans.ca/feed/"
+      htmlUrl="https://www.macleans.ca"
+      theme="all" source_type="print" />
 
 
     <!-- ═══════════════════════════════════════════════════════

@@ -391,32 +391,6 @@
       "paywall_status": "free"
     },
     {
-      "title": "Gizmodo",
-      "xmlUrl": "http://gizmodo.com/vip.xml",
-      "htmlUrl": "https://gizmodo.com/",
-      "category": "tech",
-      "tags": [
-        "consumer",
-        "gadgets"
-      ],
-      "quality_score": 5,
-      "last_included": null,
-      "paywall_status": "free"
-    },
-    {
-      "title": "Engadget",
-      "xmlUrl": "http://www.engadget.com/rss.xml",
-      "htmlUrl": "http://www.engadget.com",
-      "category": "tech",
-      "tags": [
-        "consumer",
-        "gadgets"
-      ],
-      "quality_score": 5,
-      "last_included": null,
-      "paywall_status": "free"
-    },
-    {
       "title": "Articles (Dangerous Minds)",
       "xmlUrl": "http://dangerousminds.net/atom",
       "htmlUrl": "https://dangerousminds.net",
@@ -479,19 +453,6 @@
       ],
       "quality_score": 6,
       "last_included": "2026-03-08T03:59:58.397986",
-      "paywall_status": "free"
-    },
-    {
-      "title": "CNET Smart Home",
-      "xmlUrl": "http://www.cnet.com/rss/smart-home/",
-      "htmlUrl": "https://www.cnet.com",
-      "category": "smart-home",
-      "tags": [
-        "iot",
-        "consumer"
-      ],
-      "quality_score": 5,
-      "last_included": null,
       "paywall_status": "free"
     },
     {
@@ -646,6 +607,61 @@
       "tags": [
         "canada",
         "independent"
+      ],
+      "quality_score": 7,
+      "last_included": null,
+      "paywall_status": "free"
+    },
+    {
+      "title": "CBC Politics",
+      "xmlUrl": "https://www.cbc.ca/cmlink/rss-politics",
+      "htmlUrl": "https://www.cbc.ca/news/politics",
+      "category": "news",
+      "tags": [
+        "canada",
+        "politics",
+        "federal"
+      ],
+      "quality_score": 8,
+      "last_included": null,
+      "paywall_status": "free"
+    },
+    {
+      "title": "CTV News",
+      "xmlUrl": "https://www.ctvnews.ca/rss/ctvnews-ca-top-stories-public-rss-1.822009",
+      "htmlUrl": "https://www.ctvnews.ca",
+      "category": "news",
+      "tags": [
+        "canada",
+        "mainstream"
+      ],
+      "quality_score": 7,
+      "last_included": null,
+      "paywall_status": "free"
+    },
+    {
+      "title": "iPolitics",
+      "xmlUrl": "https://ipolitics.ca/feed/",
+      "htmlUrl": "https://ipolitics.ca",
+      "category": "news",
+      "tags": [
+        "canada",
+        "federal",
+        "policy"
+      ],
+      "quality_score": 7,
+      "last_included": null,
+      "paywall_status": "free"
+    },
+    {
+      "title": "Maclean's",
+      "xmlUrl": "https://www.macleans.ca/feed/",
+      "htmlUrl": "https://www.macleans.ca",
+      "category": "news",
+      "tags": [
+        "canada",
+        "national",
+        "culture"
       ],
       "quality_score": 7,
       "last_included": null,

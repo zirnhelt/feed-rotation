@@ -31,7 +31,6 @@ DAYS = ["monday", "tuesday", "wednesday", "thursday", "friday", "saturday", "sun
 LOCAL_BC_SOURCES = {
     "Williams Lake Tribune",
     "Quesnel Cariboo Observer",
-    "My East Kootenay Now",
     "My Cariboo Now",
 }
 
