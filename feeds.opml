@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  feeds.opml — source feeds for the daily podcast feed generator.
+  This file is read by generate_podcast_feed.py, NOT by the discovery rotation system.
+  See FEEDS_MAINTENANCE.md for instructions on adding, disabling, and replacing sources.
+
+  To disable a source: wrap the <outline> in an XML comment and note the reason + date.
+-->
+<opml version="2.0">
+  <head>
+    <title>Podcast Feed Sources</title>
+    <dateModified>2026-03-25</dateModified>
+  </head>
+  <body>
+
+    <!-- ═══════════════════════════════════════════════════════
+         CARIBOO LOCAL NEWS
+         Saturday theme — also surfaces in all daily feeds for local context.
+         LOCAL_BC_SOURCES exemption applies on Saturday (see generate_podcast_feed.py).
+         ═══════════════════════════════════════════════════════ -->
+
+    <outline text="Williams Lake Tribune" title="Williams Lake Tribune"
+      type="rss"
+      xmlUrl="https://www.wltribune.com/feed/"
+      htmlUrl="https://www.wltribune.com"
+      theme="saturday" source_type="print" />
+
+    <outline text="Quesnel Cariboo Observer" title="Quesnel Cariboo Observer"
+      type="rss"
+      xmlUrl="https://www.quesnelobserver.com/feed/"
+      htmlUrl="https://www.quesnelobserver.com"
+      theme="saturday" source_type="print" />
+
+    <!-- My Cariboo Now — DISABLED 403 Forbidden since at least March 2026.
+         Same network as My East Kootenay Now; watch whether that one starts 403ing too.
+         Fallback available if needed:
+         <outline type="rss" text="GN My Cariboo Now"
+           xmlUrl="https://news.google.com/rss/search?q=site:mycariboonow.com&amp;hl=en&amp;gl=CA&amp;ceid=CA:en"
+           htmlUrl="https://news.google.com" />
+    <outline text="My Cariboo Now" title="My Cariboo Now"
+      type="rss"
+      xmlUrl="https://www.mycariboonow.com/feed/"
+      htmlUrl="https://www.mycariboonow.com"
+      theme="saturday" source_type="local" />
+    -->
+
+    <!-- My East Kootenay Now — added March 2026. Watch for 403 (same network as My Cariboo Now). -->
+    <outline text="My East Kootenay Now" title="My East Kootenay Now"
+      type="rss"
+      xmlUrl="https://www.myeastkootenaynow.com/feed/"
+      htmlUrl="https://www.myeastkootenaynow.com"
+      theme="saturday" source_type="local" />
+
+
+    <!-- ═══════════════════════════════════════════════════════
+         BC GENERAL NEWS
+         Surfaces across all themed days for provincial context.
+         ═══════════════════════════════════════════════════════ -->
+
+    <outline text="CBC British Columbia" title="CBC British Columbia"
+      type="rss"
+      xmlUrl="https://www.cbc.ca/cmlink/rss-canada-britishcolumbia"
+      htmlUrl="https://www.cbc.ca/news/canada/british-columbia"
+      theme="all" source_type="broadcast" />
+
+    <outline text="CBC News" title="CBC News"
+      type="rss"
+      xmlUrl="https://www.cbc.ca/cmlink/rss-topstories"
+      htmlUrl="https://www.cbc.ca/news"
+      theme="all" source_type="broadcast" />
+
+
+    <!-- ═══════════════════════════════════════════════════════
+         MONDAY — Arts & Urban Culture
+         ═══════════════════════════════════════════════════════ -->
+
+    <!-- Spacing Magazine — added March 2026. No known issues yet. -->
+    <outline text="Spacing Magazine" title="Spacing Magazine"
+      type="rss"
+      xmlUrl="https://spacing.ca/feed/"
+      htmlUrl="https://spacing.ca"
+      theme="monday" source_type="print" />
+
+    <!-- CBC Arts — added March 2026. CBC RSS URLs change occasionally; check if this breaks. -->
+    <outline text="CBC Arts" title="CBC Arts"
+      type="rss"
+      xmlUrl="https://www.cbc.ca/cmlink/rss-arts"
+      htmlUrl="https://www.cbc.ca/arts"
+      theme="monday" source_type="broadcast" />
+
+    <!-- BC Arts Council — no direct RSS. Google News search feed. -->
+    <outline text="GN BC Arts Council" title="GN BC Arts Council"
+      type="rss"
+      xmlUrl="https://news.google.com/rss/search?q=%22BC+Arts+Council%22+OR+%22BC+arts+funding%22&amp;hl=en&amp;gl=CA&amp;ceid=CA:en"
+      htmlUrl="https://news.google.com"
+      theme="monday" source_type="aggregator" />
+
+
+    <!-- ═══════════════════════════════════════════════════════
+         TUESDAY — Working Lands & Natural Resources
+         ═══════════════════════════════════════════════════════ -->
+
+    <!-- GN BC Working Lands — added March 2026. Google News feed; monitor for relevant volume.
+         Covers BC Cattlemen's Association and BC Lumber Trade Council / COFI stories. -->
+    <outline text="GN BC Working Lands" title="GN BC Working Lands"
+      type="rss"
+      xmlUrl="https://news.google.com/rss/search?q=%22BC+forestry%22+OR+%22BC+ranching%22+OR+%22BC+agriculture%22+OR+%22BC+Cattlemen%22+OR+%22COFI%22+OR+%22BC+lumber%22&amp;hl=en&amp;gl=CA&amp;ceid=CA:en"
+      htmlUrl="https://news.google.com"
+      theme="tuesday" source_type="aggregator" />
+
+
+    <!-- ═══════════════════════════════════════════════════════
+         THURSDAY — Indigenous Peoples & Self-Determination
+         ═══════════════════════════════════════════════════════ -->
+
+    <!-- APTN News — added March 2026. No known issues yet. -->
+    <outline text="APTN News" title="APTN News"
+      type="rss"
+      xmlUrl="https://www.aptnnews.ca/feed/"
+      htmlUrl="https://www.aptnnews.ca"
+      theme="thursday" source_type="broadcast" />
+
+    <!-- First Nations Technology Council — no public RSS. Google News fallback. -->
+    <outline text="GN First Nations Technology Council" title="GN First Nations Technology Council"
+      type="rss"
+      xmlUrl="https://news.google.com/rss/search?q=%22First+Nations+Technology+Council%22+OR+%22FNTC%22+BC&amp;hl=en&amp;gl=CA&amp;ceid=CA:en"
+      htmlUrl="https://news.google.com"
+      theme="thursday" source_type="aggregator" />
+
+
+    <!-- ═══════════════════════════════════════════════════════
+         FRIDAY — Wilderness, Conservation & Outdoor BC
+         ═══════════════════════════════════════════════════════ -->
+
+    <!-- GN BC Wildfire and Conservation — added March 2026. Google News; monitor for relevant volume.
+         Covers BC Wildfire Service and BC Parks stories (neither has a direct RSS). -->
+    <outline text="GN BC Wildfire and Conservation" title="GN BC Wildfire and Conservation"
+      type="rss"
+      xmlUrl="https://news.google.com/rss/search?q=%22BC+Wildfire%22+OR+%22BC+Parks%22+OR+%22BC+conservation%22+OR+%22species+at+risk%22+BC&amp;hl=en&amp;gl=CA&amp;ceid=CA:en"
+      htmlUrl="https://news.google.com"
+      theme="friday" source_type="aggregator" />
+
+    <!-- Haida Gwaii Observer — TODO: confirm whether a direct RSS feed exists.
+         If not, use the Google News fallback below instead.
+         <outline text="GN Haida Gwaii Observer" title="GN Haida Gwaii Observer"
+           type="rss"
+           xmlUrl="https://news.google.com/rss/search?q=site:haidagwaiiobserver.com&amp;hl=en&amp;gl=CA&amp;ceid=CA:en"
+           htmlUrl="https://news.google.com"
+           theme="friday" source_type="aggregator" />
+    -->
+
+
+    <!-- ═══════════════════════════════════════════════════════
+         SUNDAY — Rural BC Infrastructure & Connectivity
+         ═══════════════════════════════════════════════════════ -->
+
+    <!-- GN Rural BC Infrastructure — added March 2026. Google News; monitor for relevant volume.
+         Covers Rural Municipalities of BC / UBCM stories. -->
+    <outline text="GN Rural BC Infrastructure" title="GN Rural BC Infrastructure"
+      type="rss"
+      xmlUrl="https://news.google.com/rss/search?q=%22rural+BC%22+OR+%22UBCM%22+OR+%22rural+broadband%22+OR+%22Connecting+BC%22+OR+%22rural+health%22+BC&amp;hl=en&amp;gl=CA&amp;ceid=CA:en"
+      htmlUrl="https://news.google.com"
+      theme="sunday" source_type="aggregator" />
+
+    <!-- Connecting BC broadband — no direct RSS found as of March 2026. Using GN fallback above.
+         Check https://www.connectingbc.ca for RSS in future cycles. -->
+
+  </body>
+</opml>

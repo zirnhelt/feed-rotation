@@ -1,0 +1,25 @@
+{
+  "_comment": "source_map classifies sources for scoring and display. Types: print, broadcast, digital, local, aggregator. Local Cariboo sources also appear in LOCAL_BC_SOURCES in generate_podcast_feed.py for the Saturday exemption.",
+  "source_map": {
+    "Williams Lake Tribune": "print",
+    "Quesnel Cariboo Observer": "print",
+    "CBC News": "broadcast",
+    "CBC British Columbia": "broadcast",
+    "CBC Arts": "broadcast",
+    "APTN News": "broadcast",
+    "Spacing Magazine": "print",
+    "My East Kootenay Now": "local",
+    "My Cariboo Now": "local",
+    "Haida Gwaii Observer": "print",
+    "The Tyee": "digital",
+    "The Narwhal": "digital",
+    "Canada's National Observer": "digital"
+  },
+  "quality_scores": {
+    "print": 70,
+    "broadcast": 75,
+    "digital": 65,
+    "local": 60,
+    "aggregator": 40
+  }
+}

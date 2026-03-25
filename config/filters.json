@@ -1,0 +1,12 @@
+{
+  "_comment": "Blocklist for sources and title patterns. Sources in source_blocklist are dropped entirely. Title patterns (regex, case-insensitive) are matched against article titles; matches are dropped.",
+  "source_blocklist": [],
+  "title_patterns_blocklist": [
+    "^SPONSORED:",
+    "\\[advertisement\\]",
+    "press release",
+    "^PR:",
+    "\\bsponsored content\\b"
+  ],
+  "domain_blocklist": []
+}
