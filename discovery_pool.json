@@ -102,7 +102,7 @@
       ],
       "quality_score": 7,
       "last_included": "2026-03-15T04:22:18.313894",
-      "paywall_status": "paywalled"
+      "paywall_status": "free"
     },
     {
       "title": "WIRED",
@@ -206,7 +206,7 @@
       ],
       "quality_score": 5,
       "last_included": null,
-      "paywall_status": "paywalled"
+      "paywall_status": "free"
     },
     {
       "title": "Quartz",
@@ -219,7 +219,7 @@
       ],
       "quality_score": 7,
       "last_included": "2026-03-15T04:22:18.313894",
-      "paywall_status": "paywalled"
+      "paywall_status": "free"
     },
     {
       "title": "Noahpinion (Noah Smith)",
@@ -284,7 +284,7 @@
       ],
       "quality_score": 8,
       "last_included": "2026-03-22T04:08:26.231053",
-      "paywall_status": "paywalled"
+      "paywall_status": "free"
     },
     {
       "title": "National Geographic News",
@@ -518,7 +518,7 @@
       ],
       "quality_score": 8,
       "last_included": "2026-02-15T04:10:35.133349",
-      "paywall_status": "free",
+      "paywall_status": "paywalled",
       "subscriber": true
     },
     {
@@ -610,7 +610,7 @@
       ],
       "quality_score": 7,
       "last_included": "2026-03-22T04:08:26.231053",
-      "paywall_status": "paywalled"
+      "paywall_status": "free"
     },
     {
       "title": "STAT News",
@@ -936,6 +936,210 @@
       "quality_score": 5,
       "last_included": null,
       "paywall_status": "free"
+    },
+    {
+      "title": "Ten Open Source RSS News Readers for Smartphones | Welcome to The Privacy Dad's Blog!",
+      "xmlUrl": "https://theprivacydad.com/feed/",
+      "htmlUrl": "https://theprivacydad.com",
+      "category": "tech",
+      "tags": [
+        "discovered",
+        "brave-api"
+      ],
+      "quality_score": 5,
+      "last_included": null
+    },
+    {
+      "title": "RSS Newsfeeds -- ScienceDaily",
+      "xmlUrl": "https://www.sciencedaily.com/rss/all.xml",
+      "htmlUrl": "https://www.sciencedaily.com",
+      "category": "science",
+      "tags": [
+        "discovered",
+        "brave-api"
+      ],
+      "quality_score": 5,
+      "last_included": null
+    },
+    {
+      "title": "Using RSS to keep track of the latest Journal Articles \u2013 Elephant in the Lab",
+      "xmlUrl": "https://elephantinthelab.org/feed/",
+      "htmlUrl": "https://elephantinthelab.org",
+      "category": "science",
+      "tags": [
+        "discovered",
+        "brave-api"
+      ],
+      "quality_score": 7,
+      "last_included": null
+    },
+    {
+      "title": "longform.org | Jim Nelson",
+      "xmlUrl": "https://j-nelson.net/feed/",
+      "htmlUrl": "https://j-nelson.net",
+      "category": "culture",
+      "tags": [
+        "discovered",
+        "brave-api"
+      ],
+      "quality_score": 6,
+      "last_included": null
+    },
+    {
+      "title": "Custom Email Notifications and RSS | Books on Dramatic Literature, Criticism, and Theory, The University Press of Kentucky | Theatre and Performance Studies | University of Kentucky",
+      "xmlUrl": "https://uknowledge.uky.edu/recent.rss",
+      "htmlUrl": "https://uknowledge.uky.edu",
+      "category": "culture",
+      "tags": [
+        "discovered",
+        "brave-api"
+      ],
+      "quality_score": 5,
+      "last_included": null
+    },
+    {
+      "title": "ArtsJournal: Daily arts news | Lee Rosenbaum's cultural commentary",
+      "xmlUrl": "https://www.artsjournal.com/feed",
+      "htmlUrl": "https://www.artsjournal.com",
+      "category": "culture",
+      "tags": [
+        "discovered",
+        "brave-api"
+      ],
+      "quality_score": 5,
+      "last_included": null
+    },
+    {
+      "title": "CultureWatch - Bill Muehlenberg's commentary on issues of the day...",
+      "xmlUrl": "https://billmuehlenberg.com/feed/",
+      "htmlUrl": "https://billmuehlenberg.com",
+      "category": "culture",
+      "tags": [
+        "discovered",
+        "brave-api"
+      ],
+      "quality_score": 5,
+      "last_included": null
+    },
+    {
+      "title": "Culture - The best articles chosen by the team at Paperblog",
+      "xmlUrl": "https://en.paperblog.com/rss/une/",
+      "htmlUrl": "https://en.paperblog.com",
+      "category": "culture",
+      "tags": [
+        "discovered",
+        "brave-api"
+      ],
+      "quality_score": 5,
+      "last_included": null
+    },
+    {
+      "title": "Culture : NPR",
+      "xmlUrl": "https://feeds.npr.org/1002/rss.xml",
+      "htmlUrl": "https://www.npr.org",
+      "category": "culture",
+      "tags": [
+        "discovered",
+        "brave-api"
+      ],
+      "quality_score": 5,
+      "last_included": null
+    },
+    {
+      "title": "Pop Junctions: Reflections on Entertainment, Pop Culture, Activism, Media Literacy, Fandom and More",
+      "xmlUrl": "http://henryjenkins.org/blog?format=rss",
+      "htmlUrl": "https://henryjenkins.org",
+      "category": "culture",
+      "tags": [
+        "discovered",
+        "brave-api"
+      ],
+      "quality_score": 5,
+      "last_included": null
+    },
+    {
+      "title": "News Feeds | Climate Change Resources",
+      "xmlUrl": "https://climatechangeresources.org/rss.xml",
+      "htmlUrl": "https://climatechangeresources.org",
+      "category": "environment",
+      "tags": [
+        "discovered",
+        "brave-api"
+      ],
+      "quality_score": 5,
+      "last_included": null
+    },
+    {
+      "title": "Web Feeds | Nature Climate Change",
+      "xmlUrl": "https://www.nature.com/nature.rss",
+      "htmlUrl": "https://www.nature.com",
+      "category": "environment",
+      "tags": [
+        "discovered",
+        "brave-api"
+      ],
+      "quality_score": 5,
+      "last_included": null
+    },
+    {
+      "title": "RSS Newsfeeds -- ScienceDaily",
+      "xmlUrl": "https://www.sciencedaily.com/rss/all.xml",
+      "htmlUrl": "https://www.sciencedaily.com",
+      "category": "environment",
+      "tags": [
+        "discovered",
+        "brave-api"
+      ],
+      "quality_score": 5,
+      "last_included": null
+    },
+    {
+      "title": "RSS Feeds for EconLog - Econlib",
+      "xmlUrl": "https://www.econlib.org/feed",
+      "htmlUrl": "https://www.econlib.org",
+      "category": "economics",
+      "tags": [
+        "discovered",
+        "brave-api"
+      ],
+      "quality_score": 5,
+      "last_included": null
+    },
+    {
+      "title": "Law and Political Economy Blog - LPE Project - LPE Project",
+      "xmlUrl": "https://lpeproject.org/feed",
+      "htmlUrl": "https://lpeproject.org",
+      "category": "economics",
+      "tags": [
+        "discovered",
+        "brave-api"
+      ],
+      "quality_score": 5,
+      "last_included": null
+    },
+    {
+      "title": "RSS Newsfeeds -- ScienceDaily",
+      "xmlUrl": "https://www.sciencedaily.com/rss/all.xml",
+      "htmlUrl": "https://www.sciencedaily.com",
+      "category": "health",
+      "tags": [
+        "discovered",
+        "brave-api"
+      ],
+      "quality_score": 5,
+      "last_included": null
+    },
+    {
+      "title": "What are the Ethics of using RSS feeds?",
+      "xmlUrl": "https://problogger.com/feed",
+      "htmlUrl": "https://problogger.com",
+      "category": "philosophy",
+      "tags": [
+        "discovered",
+        "brave-api"
+      ],
+      "quality_score": 5,
+      "last_included": null
     }
   ]
 }

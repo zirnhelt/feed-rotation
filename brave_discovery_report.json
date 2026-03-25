@@ -1,37 +1,37 @@
 {
-  "generated": "2026-03-23T13:36:49.912897",
+  "generated": "2026-03-25T02:25:53.774521",
   "mode": "both",
   "paywall_checks": [
     {
       "title": "Ars Technica \u2013 Technology Lab",
       "domain": "arstechnica.com",
       "xmlUrl": "https://feeds.arstechnica.com/arstechnica/technology-lab",
-      "paywalled": true,
-      "evidence": "paywall search: paywall",
+      "paywalled": false,
+      "evidence": "no paywall indicators found",
       "confidence": "medium"
     },
     {
       "title": "Kottke.org",
       "domain": "kottke.org",
       "xmlUrl": "https://feeds.kottke.org/main",
-      "paywalled": true,
-      "evidence": "paywall search: paywall",
+      "paywalled": false,
+      "evidence": "no paywall indicators found",
       "confidence": "medium"
     },
     {
       "title": "Metafilter",
       "domain": "metafilter.com",
       "xmlUrl": "https://www.metafilter.com/rss.xml",
-      "paywalled": true,
-      "evidence": "paywall search: paywall",
+      "paywalled": false,
+      "evidence": "no paywall indicators found",
       "confidence": "medium"
     },
     {
       "title": "Boing Boing",
       "domain": "boingboing.net",
       "xmlUrl": "https://boingboing.net/feed",
-      "paywalled": true,
-      "evidence": "paywall search: for subscribers, paywall",
+      "paywalled": false,
+      "evidence": "no paywall indicators found",
       "confidence": "medium"
     },
     {
@@ -54,16 +54,16 @@
       "title": "Open Culture",
       "domain": "openculture.com",
       "xmlUrl": "https://www.openculture.com/feed",
-      "paywalled": true,
-      "evidence": "paywall search: paywall",
+      "paywalled": false,
+      "evidence": "no paywall indicators found",
       "confidence": "medium"
     },
     {
       "title": "Creative Review",
       "domain": "creativereview.co.uk",
       "xmlUrl": "https://www.creativereview.co.uk/feed/",
-      "paywalled": true,
-      "evidence": "paywall search: paywall",
+      "paywalled": false,
+      "evidence": "no paywall indicators found",
       "confidence": "medium"
     },
     {
@@ -78,72 +78,72 @@
       "title": "Techdirt",
       "domain": "techdirt.com",
       "xmlUrl": "http://www.techdirt.com/techdirt_rss.xml",
-      "paywalled": true,
-      "evidence": "paywall search: paywall",
+      "paywalled": false,
+      "evidence": "no paywall indicators found",
       "confidence": "medium"
     },
     {
       "title": "BBC World News",
       "domain": "bbc.co.uk",
       "xmlUrl": "http://feeds.bbci.co.uk/news/world/rss.xml",
-      "paywalled": true,
-      "evidence": "paywall search: paywall",
+      "paywalled": false,
+      "evidence": "no paywall indicators found",
       "confidence": "medium"
     },
     {
       "title": "The Guardian \u2013 Global Development",
       "domain": "theguardian.com",
       "xmlUrl": "https://www.theguardian.com/global-development/rss",
-      "paywalled": true,
-      "evidence": "paywall search: paywall",
+      "paywalled": false,
+      "evidence": "no paywall indicators found",
       "confidence": "medium"
     },
     {
       "title": "Al Jazeera English",
       "domain": "aljazeera.com",
       "xmlUrl": "https://www.aljazeera.com/xml/rss/all.xml",
-      "paywalled": true,
-      "evidence": "paywall search: paywall",
+      "paywalled": false,
+      "evidence": "no paywall indicators found",
       "confidence": "medium"
     },
     {
       "title": "Reuters Top News",
       "domain": "reuters.com",
       "xmlUrl": "http://feeds.reuters.com/reuters/topNews",
-      "paywalled": true,
-      "evidence": "paywall search: paywall",
+      "paywalled": false,
+      "evidence": "no paywall indicators found",
       "confidence": "medium"
     },
     {
       "title": "AP News",
       "domain": "apnews.com",
       "xmlUrl": "https://apnews.com/rss",
-      "paywalled": true,
-      "evidence": "paywall search: paywall",
+      "paywalled": false,
+      "evidence": "no paywall indicators found",
       "confidence": "medium"
     },
     {
       "title": "Business Insider",
       "domain": "businessinsider.com",
       "xmlUrl": "http://feeds2.feedburner.com/businessinsider",
-      "paywalled": true,
-      "evidence": "paywall search: paywall",
+      "paywalled": false,
+      "evidence": "no paywall indicators found",
       "confidence": "medium"
     },
     {
       "title": "Quartz",
       "domain": "qz.com",
       "xmlUrl": "http://qz.com/feed",
-      "paywalled": true,
-      "evidence": "paywall search: subscribe to read, paywall",
+      "paywalled": false,
+      "evidence": "no paywall indicators found",
       "confidence": "medium"
     },
     {
       "title": "Noahpinion (Noah Smith)",
       "domain": "noahpinion.blog",
       "xmlUrl": "https://noahpinion.substack.com/feed",
-      "paywalled": true,
-      "evidence": "paywall search: paywall",
+      "paywalled": false,
+      "evidence": "no paywall indicators found",
       "confidence": "medium"
     },
     {
@@ -166,16 +166,16 @@
       "title": "One Mile at a Time",
       "domain": "onemileatatime.com",
       "xmlUrl": "http://boardingarea.com/blogs/onemileatatime/feed/",
-      "paywalled": true,
-      "evidence": "paywall search: paywall",
+      "paywalled": false,
+      "evidence": "no paywall indicators found",
       "confidence": "medium"
     },
     {
       "title": "Scientific American",
       "domain": "scientificamerican.com",
       "xmlUrl": "https://www.scientificamerican.com/feed/",
-      "paywalled": true,
-      "evidence": "paywall search: paywall",
+      "paywalled": false,
+      "evidence": "no paywall indicators found",
       "confidence": "medium"
     },
     {
@@ -198,8 +198,8 @@
       "title": "IT World Canada",
       "domain": "itworldcanada.com",
       "xmlUrl": "http://www.itworldcanada.com/articlesrss",
-      "paywalled": true,
-      "evidence": "paywall search: paywall",
+      "paywalled": false,
+      "evidence": "no paywall indicators found",
       "confidence": "medium"
     },
     {
@@ -214,62 +214,54 @@
       "title": "iPhone in Canada Blog",
       "domain": "iphoneincanada.ca",
       "xmlUrl": "http://feeds.feedburner.com/iphoneincanada",
-      "paywalled": true,
-      "evidence": "paywall search: paywall",
+      "paywalled": false,
+      "evidence": "no paywall indicators found",
       "confidence": "medium"
     },
     {
       "title": "Lifehacker",
       "domain": "lifehacker.com",
       "xmlUrl": "http://lifehacker.com/vip.xml",
-      "paywalled": true,
-      "evidence": "paywall search: paywall",
+      "paywalled": false,
+      "evidence": "no paywall indicators found",
       "confidence": "medium"
     },
     {
       "title": "MakeUseOf.com",
       "domain": "makeuseof.com",
       "xmlUrl": "http://feeds.feedburner.com/Makeuseof",
-      "paywalled": true,
-      "evidence": "paywall search: paywall",
+      "paywalled": false,
+      "evidence": "no paywall indicators found",
       "confidence": "medium"
     },
     {
       "title": "Mental Floss",
       "domain": "mentalfloss.com",
       "xmlUrl": "http://www.mentalfloss.com/blogs/feed",
-      "paywalled": true,
-      "evidence": "paywall search: paywall",
+      "paywalled": false,
+      "evidence": "no paywall indicators found",
       "confidence": "medium"
     },
     {
       "title": "Gizmodo",
       "domain": "gizmodo.com",
       "xmlUrl": "http://gizmodo.com/vip.xml",
-      "paywalled": true,
-      "evidence": "paywall search: paywall",
+      "paywalled": false,
+      "evidence": "no paywall indicators found",
       "confidence": "medium"
     },
     {
       "title": "Engadget",
       "domain": "engadget.com",
       "xmlUrl": "http://www.engadget.com/rss.xml",
-      "paywalled": true,
-      "evidence": "paywall search: paywall",
+      "paywalled": false,
+      "evidence": "no paywall indicators found",
       "confidence": "medium"
     },
     {
       "title": "Articles (Dangerous Minds)",
       "domain": "dangerousminds.net",
       "xmlUrl": "http://dangerousminds.net/atom",
-      "paywalled": true,
-      "evidence": "paywall search: paywall",
-      "confidence": "medium"
-    },
-    {
-      "title": "New Projects : Kickstarter",
-      "domain": "kickstarter.com",
-      "xmlUrl": "http://www.kickstarter.com/projects/feed.atom",
       "paywalled": false,
       "evidence": "no paywall indicators found",
       "confidence": "medium"
@@ -286,8 +278,8 @@
       "title": "Google Search Central Blog",
       "domain": "developers.google.com",
       "xmlUrl": "http://googlewebmastercentral.blogspot.com/atom.xml",
-      "paywalled": true,
-      "evidence": "paywall search: paywall",
+      "paywalled": false,
+      "evidence": "no paywall indicators found",
       "confidence": "medium"
     },
     {
@@ -307,19 +299,11 @@
       "confidence": "medium"
     },
     {
-      "title": "News \u2013 SmartThings Blog",
-      "domain": "blog.smartthings.com",
-      "xmlUrl": "http://blog.smartthings.com/category/news/feed/",
-      "paywalled": false,
-      "evidence": "no paywall indicators found",
-      "confidence": "medium"
-    },
-    {
       "title": "CNET Smart Home",
       "domain": "cnet.com",
       "xmlUrl": "http://www.cnet.com/rss/smart-home/",
-      "paywalled": true,
-      "evidence": "paywall search: paywall",
+      "paywalled": false,
+      "evidence": "no paywall indicators found",
       "confidence": "medium"
     },
     {
@@ -342,16 +326,16 @@
       "title": "Literary Hub",
       "domain": "lithub.com",
       "xmlUrl": "https://lithub.com/feed/",
-      "paywalled": true,
-      "evidence": "paywall search: paywall",
+      "paywalled": false,
+      "evidence": "no paywall indicators found",
       "confidence": "medium"
     },
     {
       "title": "The Paris Review Daily",
       "domain": "theparisreview.org",
       "xmlUrl": "https://www.theparisreview.org/feed/",
-      "paywalled": true,
-      "evidence": "paywall search: paywall",
+      "paywalled": false,
+      "evidence": "no paywall indicators found",
       "confidence": "medium"
     },
     {
@@ -366,8 +350,8 @@
       "title": "3 Quarks Daily",
       "domain": "3quarksdaily.com",
       "xmlUrl": "https://3quarksdaily.com/3quarksdaily/atom.xml",
-      "paywalled": true,
-      "evidence": "paywall search: paywall",
+      "paywalled": false,
+      "evidence": "no paywall indicators found",
       "confidence": "medium"
     },
     {
@@ -390,16 +374,16 @@
       "title": "Lapham's Quarterly",
       "domain": "laphamsquarterly.org",
       "xmlUrl": "https://www.laphamsquarterly.org/rss.xml",
-      "paywalled": true,
-      "evidence": "paywall search: paywall",
+      "paywalled": false,
+      "evidence": "no paywall indicators found",
       "confidence": "medium"
     },
     {
       "title": "STAT News",
       "domain": "statnews.com",
       "xmlUrl": "https://www.statnews.com/feed/",
-      "paywalled": true,
-      "evidence": "paywall search: paywall",
+      "paywalled": false,
+      "evidence": "no paywall indicators found",
       "confidence": "medium"
     },
     {
@@ -414,8 +398,8 @@
       "title": "The Tyee",
       "domain": "thetyee.ca",
       "xmlUrl": "https://thetyee.ca/rss2.xml",
-      "paywalled": true,
-      "evidence": "paywall search: paywall, to continue reading",
+      "paywalled": false,
+      "evidence": "no paywall indicators found",
       "confidence": "medium"
     },
     {
@@ -430,32 +414,32 @@
       "title": "Jacobin",
       "domain": "jacobin.com",
       "xmlUrl": "https://jacobin.com/feed/",
-      "paywalled": true,
-      "evidence": "paywall search: paywall",
+      "paywalled": false,
+      "evidence": "no paywall indicators found",
       "confidence": "medium"
     },
     {
       "title": "Serious Eats",
       "domain": "seriouseats.com",
       "xmlUrl": "https://www.seriouseats.com/feeds/all",
-      "paywalled": true,
-      "evidence": "paywall search: paywall",
+      "paywalled": false,
+      "evidence": "no paywall indicators found",
       "confidence": "medium"
     },
     {
       "title": "Eater",
       "domain": "eater.com",
       "xmlUrl": "https://www.eater.com/rss/index.xml",
-      "paywalled": true,
-      "evidence": "paywall search: paywall",
+      "paywalled": false,
+      "evidence": "no paywall indicators found",
       "confidence": "medium"
     },
     {
       "title": "Strong Towns",
       "domain": "strongtowns.org",
       "xmlUrl": "https://www.strongtowns.org/journal?format=rss",
-      "paywalled": true,
-      "evidence": "paywall search: paywall",
+      "paywalled": false,
+      "evidence": "no paywall indicators found",
       "confidence": "medium"
     },
     {
@@ -478,56 +462,124 @@
       "title": "The Conversation",
       "domain": "theconversation.com",
       "xmlUrl": "https://theconversation.com/articles.atom",
-      "paywalled": true,
-      "evidence": "paywall search: paywall",
+      "paywalled": false,
+      "evidence": "no paywall indicators found",
       "confidence": "medium"
     },
     {
       "title": "openDemocracy",
       "domain": "opendemocracy.net",
       "xmlUrl": "https://www.opendemocracy.net/en/rss.xml",
-      "paywalled": true,
-      "evidence": "paywall search: paywall",
+      "paywalled": false,
+      "evidence": "no paywall indicators found",
+      "confidence": "medium"
+    },
+    {
+      "title": "RSS feeds Archives - Software Engineering Daily",
+      "domain": "softwareengineeringdaily.com",
+      "xmlUrl": "https://softwareengineeringdaily.com/feed",
+      "paywalled": false,
+      "evidence": "no paywall indicators found",
+      "confidence": "medium"
+    },
+    {
+      "title": "(Un)popular Cultures - A blog exploring the unusual & Inspirational",
+      "domain": "unpopcultures.com",
+      "xmlUrl": "https://unpopcultures.com/feed",
+      "paywalled": false,
+      "evidence": "no paywall indicators found",
+      "confidence": "medium"
+    },
+    {
+      "title": "Cultural Maturity \u2013 A Blog for the Future",
+      "domain": "culturalmaturityblog.net",
+      "xmlUrl": "https://culturalmaturityblog.net/feed/",
+      "paywalled": false,
+      "evidence": "no paywall indicators found",
+      "confidence": "medium"
+    },
+    {
+      "title": "Feeds | NOAA Climate.gov",
+      "domain": "climate.gov",
+      "xmlUrl": "https://www.climate.gov/rss.xml",
+      "paywalled": false,
+      "evidence": "no paywall indicators found",
+      "confidence": "medium"
+    },
+    {
+      "title": "Climate Solutions RSS Feeds | Climate Solutions",
+      "domain": "climatesolutions.org",
+      "xmlUrl": "https://www.climatesolutions.org/rss.xml",
+      "paywalled": false,
+      "evidence": "no paywall indicators found",
+      "confidence": "medium"
+    },
+    {
+      "title": "RSS Feeds",
+      "domain": "conservation.org",
+      "xmlUrl": "https://www.conservation.org/feed.xml",
+      "paywalled": false,
+      "evidence": "no paywall indicators found",
+      "confidence": "medium"
+    },
+    {
+      "title": "RSS News Feeds | National Institute of Environmental Health Sciences",
+      "domain": "niehs.nih.gov",
+      "xmlUrl": "https://www.niehs.nih.gov/rss.xml",
+      "paywalled": false,
+      "evidence": "no paywall indicators found",
+      "confidence": "medium"
+    },
+    {
+      "title": "RSS Feeds :: Sustainability Matters",
+      "domain": "sustainabilitymatters.net.au",
+      "xmlUrl": "https://www.sustainabilitymatters.net.au/feed",
+      "paywalled": false,
+      "evidence": "no paywall indicators found",
+      "confidence": "medium"
+    },
+    {
+      "title": "Green Lodging News RSS Feeds | Green Lodging News",
+      "domain": "greenlodgingnews.com",
+      "xmlUrl": "https://www.greenlodgingnews.com/feed/",
+      "paywalled": false,
+      "evidence": "no paywall indicators found",
+      "confidence": "medium"
+    },
+    {
+      "title": "Levy News RSS Feed",
+      "domain": "levyinstitute.org",
+      "xmlUrl": "https://www.levyinstitute.org/feed",
+      "paywalled": false,
+      "evidence": "no paywall indicators found",
+      "confidence": "medium"
+    },
+    {
+      "title": "RSS feeds | Global Health: Science and Practice",
+      "domain": "ghspjournal.org",
+      "xmlUrl": "https://www.ghspjournal.org/rss.xml",
+      "paywalled": false,
+      "evidence": "no paywall indicators found",
+      "confidence": "medium"
+    },
+    {
+      "title": "RSS Feeds | National Institute of Biomedical Imaging and Bioengineering",
+      "domain": "nibib.nih.gov",
+      "xmlUrl": "https://www.nibib.nih.gov/rss",
+      "paywalled": false,
+      "evidence": "no paywall indicators found",
+      "confidence": "medium"
+    },
+    {
+      "title": "Subscribe for free | 2 Minute Medicine",
+      "domain": "2minutemedicine.com",
+      "xmlUrl": "https://www.2minutemedicine.com/feed/",
+      "paywalled": false,
+      "evidence": "no paywall indicators found",
       "confidence": "medium"
     }
   ],
   "discovered_feeds": [
-    {
-      "title": "RSS feeds Archives - Software Engineering Daily",
-      "xmlUrl": "https://softwareengineeringdaily.com/feed",
-      "htmlUrl": "https://softwareengineeringdaily.com",
-      "category": "tech",
-      "tags": [
-        "discovered",
-        "brave-api"
-      ],
-      "quality_score": 6,
-      "last_included": null
-    },
-    {
-      "title": "Software Development Articles and Blogs - Syndication, Feed, and RSS Info - developer.*, Developer Dot Star",
-      "xmlUrl": "http://www.developerdotstar.com/mag/rss/devdotstar.xml",
-      "htmlUrl": "https://www.developerdotstar.com",
-      "category": "tech",
-      "tags": [
-        "discovered",
-        "brave-api"
-      ],
-      "quality_score": 5,
-      "last_included": null
-    },
-    {
-      "title": "Software Development RSS Feeds - RSS Catalog",
-      "xmlUrl": "https://www.cyberseo.net/feed/",
-      "htmlUrl": "https://www.cyberseo.net",
-      "category": "tech",
-      "tags": [
-        "discovered",
-        "brave-api"
-      ],
-      "quality_score": 5,
-      "last_included": null
-    },
     {
       "title": "Ten Open Source RSS News Readers for Smartphones | Welcome to The Privacy Dad's Blog!",
       "xmlUrl": "https://theprivacydad.com/feed/",
@@ -541,15 +593,27 @@
       "last_included": null
     },
     {
-      "title": "The Best Self-Hosted RSS Feed Readers",
-      "xmlUrl": "https://lukesingham.com/feed.xml",
-      "htmlUrl": "https://lukesingham.com",
-      "category": "tech",
+      "title": "RSS Newsfeeds -- ScienceDaily",
+      "xmlUrl": "https://www.sciencedaily.com/rss/all.xml",
+      "htmlUrl": "https://www.sciencedaily.com",
+      "category": "science",
       "tags": [
         "discovered",
         "brave-api"
       ],
-      "quality_score": 6,
+      "quality_score": 5,
+      "last_included": null
+    },
+    {
+      "title": "Using RSS to keep track of the latest Journal Articles \u2013 Elephant in the Lab",
+      "xmlUrl": "https://elephantinthelab.org/feed/",
+      "htmlUrl": "https://elephantinthelab.org",
+      "category": "science",
+      "tags": [
+        "discovered",
+        "brave-api"
+      ],
+      "quality_score": 7,
       "last_included": null
     },
     {
@@ -577,9 +641,9 @@
       "last_included": null
     },
     {
-      "title": "(Un)popular Cultures - A blog exploring the unusual & Inspirational",
-      "xmlUrl": "https://unpopcultures.com/feed",
-      "htmlUrl": "https://unpopcultures.com",
+      "title": "ArtsJournal: Daily arts news | Lee Rosenbaum's cultural commentary",
+      "xmlUrl": "https://www.artsjournal.com/feed",
+      "htmlUrl": "https://www.artsjournal.com",
       "category": "culture",
       "tags": [
         "discovered",
@@ -589,9 +653,45 @@
       "last_included": null
     },
     {
-      "title": "Cultural Maturity \u2013 A Blog for the Future",
-      "xmlUrl": "https://culturalmaturityblog.net/feed/",
-      "htmlUrl": "https://culturalmaturityblog.net",
+      "title": "CultureWatch - Bill Muehlenberg's commentary on issues of the day...",
+      "xmlUrl": "https://billmuehlenberg.com/feed/",
+      "htmlUrl": "https://billmuehlenberg.com",
+      "category": "culture",
+      "tags": [
+        "discovered",
+        "brave-api"
+      ],
+      "quality_score": 5,
+      "last_included": null
+    },
+    {
+      "title": "Culture - The best articles chosen by the team at Paperblog",
+      "xmlUrl": "https://en.paperblog.com/rss/une/",
+      "htmlUrl": "https://en.paperblog.com",
+      "category": "culture",
+      "tags": [
+        "discovered",
+        "brave-api"
+      ],
+      "quality_score": 5,
+      "last_included": null
+    },
+    {
+      "title": "Culture : NPR",
+      "xmlUrl": "https://feeds.npr.org/1002/rss.xml",
+      "htmlUrl": "https://www.npr.org",
+      "category": "culture",
+      "tags": [
+        "discovered",
+        "brave-api"
+      ],
+      "quality_score": 5,
+      "last_included": null
+    },
+    {
+      "title": "Pop Junctions: Reflections on Entertainment, Pop Culture, Activism, Media Literacy, Fandom and More",
+      "xmlUrl": "http://henryjenkins.org/blog?format=rss",
+      "htmlUrl": "https://henryjenkins.org",
       "category": "culture",
       "tags": [
         "discovered",
@@ -613,9 +713,9 @@
       "last_included": null
     },
     {
-      "title": "Feeds | NOAA Climate.gov",
-      "xmlUrl": "https://www.climate.gov/rss.xml",
-      "htmlUrl": "https://www.climate.gov",
+      "title": "Web Feeds | Nature Climate Change",
+      "xmlUrl": "https://www.nature.com/nature.rss",
+      "htmlUrl": "https://www.nature.com",
       "category": "environment",
       "tags": [
         "discovered",
@@ -625,9 +725,9 @@
       "last_included": null
     },
     {
-      "title": "Climate Solutions RSS Feeds | Climate Solutions",
-      "xmlUrl": "https://www.climatesolutions.org/rss.xml",
-      "htmlUrl": "https://www.climatesolutions.org",
+      "title": "RSS Newsfeeds -- ScienceDaily",
+      "xmlUrl": "https://www.sciencedaily.com/rss/all.xml",
+      "htmlUrl": "https://www.sciencedaily.com",
       "category": "environment",
       "tags": [
         "discovered",
@@ -637,93 +737,9 @@
       "last_included": null
     },
     {
-      "title": "RSS Feeds",
-      "xmlUrl": "https://www.conservation.org/feed.xml",
-      "htmlUrl": "https://www.conservation.org",
-      "category": "environment",
-      "tags": [
-        "discovered",
-        "brave-api"
-      ],
-      "quality_score": 5,
-      "last_included": null
-    },
-    {
-      "title": "RSS News Feeds | National Institute of Environmental Health Sciences",
-      "xmlUrl": "https://www.niehs.nih.gov/rss.xml",
-      "htmlUrl": "https://www.niehs.nih.gov",
-      "category": "environment",
-      "tags": [
-        "discovered",
-        "brave-api"
-      ],
-      "quality_score": 6,
-      "last_included": null
-    },
-    {
-      "title": "Environment News RSS Feeds from GreenEnvironmentNews.com",
-      "xmlUrl": "https://feeds2.feedburner.com/GreenenvironmentnewscomAgricultureEnvironmentNews",
-      "htmlUrl": "https://www.greenenvironmentnews.com",
-      "category": "environment",
-      "tags": [
-        "discovered",
-        "brave-api"
-      ],
-      "quality_score": 5,
-      "last_included": null
-    },
-    {
-      "title": "Get Environment News by RSS - Environmental News Today",
-      "xmlUrl": "https://environment.einnews.com/rss",
-      "htmlUrl": "https://environment.einnews.com",
-      "category": "environment",
-      "tags": [
-        "discovered",
-        "brave-api"
-      ],
-      "quality_score": 5,
-      "last_included": null
-    },
-    {
-      "title": "RSS Feeds :: Sustainability Matters",
-      "xmlUrl": "https://www.sustainabilitymatters.net.au/feed",
-      "htmlUrl": "https://www.sustainabilitymatters.net.au",
-      "category": "environment",
-      "tags": [
-        "discovered",
-        "brave-api"
-      ],
-      "quality_score": 5,
-      "last_included": null
-    },
-    {
-      "title": "Green Lodging News RSS Feeds | Green Lodging News",
-      "xmlUrl": "https://www.greenlodgingnews.com/feed/",
-      "htmlUrl": "https://www.greenlodgingnews.com",
-      "category": "environment",
-      "tags": [
-        "discovered",
-        "brave-api"
-      ],
-      "quality_score": 5,
-      "last_included": null
-    },
-    {
-      "title": "Economics RSS Feeds - RSS Catalog",
-      "xmlUrl": "https://www.cyberseo.net/feed/",
-      "htmlUrl": "https://www.cyberseo.net",
-      "category": "economics",
-      "tags": [
-        "discovered",
-        "brave-api"
-      ],
-      "quality_score": 7,
-      "last_included": null
-    },
-    {
-      "title": "Levy News RSS Feed",
-      "xmlUrl": "https://www.levyinstitute.org/feed",
-      "htmlUrl": "https://www.levyinstitute.org",
+      "title": "RSS Feeds for EconLog - Econlib",
+      "xmlUrl": "https://www.econlib.org/feed",
+      "htmlUrl": "https://www.econlib.org",
       "category": "economics",
       "tags": [
         "discovered",
@@ -733,9 +749,21 @@
       "last_included": null
     },
     {
-      "title": "RSS feeds | Global Health: Science and Practice",
-      "xmlUrl": "https://www.ghspjournal.org/rss.xml",
-      "htmlUrl": "https://www.ghspjournal.org",
+      "title": "Law and Political Economy Blog - LPE Project - LPE Project",
+      "xmlUrl": "https://lpeproject.org/feed",
+      "htmlUrl": "https://lpeproject.org",
+      "category": "economics",
+      "tags": [
+        "discovered",
+        "brave-api"
+      ],
+      "quality_score": 5,
+      "last_included": null
+    },
+    {
+      "title": "RSS Newsfeeds -- ScienceDaily",
+      "xmlUrl": "https://www.sciencedaily.com/rss/all.xml",
+      "htmlUrl": "https://www.sciencedaily.com",
       "category": "health",
       "tags": [
         "discovered",
@@ -745,57 +773,9 @@
       "last_included": null
     },
     {
-      "title": "RSS Feeds | National Institute of Biomedical Imaging and Bioengineering",
-      "xmlUrl": "https://www.nibib.nih.gov/rss",
-      "htmlUrl": "https://www.nibib.nih.gov",
-      "category": "health",
-      "tags": [
-        "discovered",
-        "brave-api"
-      ],
-      "quality_score": 5,
-      "last_included": null
-    },
-    {
-      "title": "Subscribe for free | 2 Minute Medicine",
-      "xmlUrl": "https://www.2minutemedicine.com/feed/",
-      "htmlUrl": "https://www.2minutemedicine.com",
-      "category": "health",
-      "tags": [
-        "discovered",
-        "brave-api"
-      ],
-      "quality_score": 5,
-      "last_included": null
-    },
-    {
-      "title": "Health and Medical RSS Feeds and News Syndication from MedicineNet ...",
-      "xmlUrl": "https://www.medicinenet.com/rss/dailyhealth.xml",
-      "htmlUrl": "https://www.medicinenet.com",
-      "category": "health",
-      "tags": [
-        "discovered",
-        "brave-api"
-      ],
-      "quality_score": 5,
-      "last_included": null
-    },
-    {
-      "title": "Philosophy RSS feeds",
-      "xmlUrl": "https://www.cyberseo.net/feed/",
-      "htmlUrl": "https://www.cyberseo.net",
-      "category": "philosophy",
-      "tags": [
-        "discovered",
-        "brave-api"
-      ],
-      "quality_score": 6,
-      "last_included": null
-    },
-    {
-      "title": "Hippocratical: Medical Ethics Podcast | RSS.com",
-      "xmlUrl": "https://rss.com/blog/feed/",
-      "htmlUrl": "https://rss.com",
+      "title": "What are the Ethics of using RSS feeds?",
+      "xmlUrl": "https://problogger.com/feed",
+      "htmlUrl": "https://problogger.com",
       "category": "philosophy",
       "tags": [
         "discovered",
