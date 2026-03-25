@@ -2,7 +2,7 @@
 <opml version="2.0">
   <head>
     <title>Feed Rotation - Generated</title>
-    <dateCreated>2026-03-22T04:08:26.231822</dateCreated>
+    <dateCreated>2026-03-25T02:22:47.609196</dateCreated>
   </head>
   <body>
     <outline text="Science &amp; Deep Thinking" title="Science &amp; Deep Thinking">
@@ -30,12 +30,27 @@
       <outline type="rss" text="Williams Lake Tribune" title="Williams Lake Tribune" xmlUrl="https://www.wltribune.com/feed/" htmlUrl="https://www.wltribune.com" />
       <outline type="rss" text="Quesnel Cariboo Observer" title="Quesnel Cariboo Observer" xmlUrl="https://www.quesnelobserver.com/feed/" htmlUrl="https://www.quesnelobserver.com" />
     </outline>
+    <outline text="Podcast Sources" title="Podcast Sources">
+      <outline type="rss" text="Williams Lake Tribune" title="Williams Lake Tribune" xmlUrl="https://www.wltribune.com/feed/" htmlUrl="https://www.wltribune.com" />
+      <outline type="rss" text="Quesnel Cariboo Observer" title="Quesnel Cariboo Observer" xmlUrl="https://www.quesnelobserver.com/feed/" htmlUrl="https://www.quesnelobserver.com" />
+      <outline type="rss" text="My East Kootenay Now" title="My East Kootenay Now" xmlUrl="https://www.myeastkootenaynow.com/feed/" htmlUrl="https://www.myeastkootenaynow.com" />
+      <outline type="rss" text="CBC British Columbia" title="CBC British Columbia" xmlUrl="https://www.cbc.ca/cmlink/rss-canada-britishcolumbia" htmlUrl="https://www.cbc.ca/news/canada/british-columbia" />
+      <outline type="rss" text="CBC News" title="CBC News" xmlUrl="https://www.cbc.ca/cmlink/rss-topstories" htmlUrl="https://www.cbc.ca/news" />
+      <outline type="rss" text="Spacing Magazine" title="Spacing Magazine" xmlUrl="https://spacing.ca/feed/" htmlUrl="https://spacing.ca" />
+      <outline type="rss" text="CBC Arts" title="CBC Arts" xmlUrl="https://www.cbc.ca/cmlink/rss-arts" htmlUrl="https://www.cbc.ca/arts" />
+      <outline type="rss" text="GN BC Arts Council" title="GN BC Arts Council" xmlUrl="https://news.google.com/rss/search?q=%22BC+Arts+Council%22+OR+%22BC+arts+funding%22&amp;hl=en&amp;gl=CA&amp;ceid=CA:en" htmlUrl="https://news.google.com" />
+      <outline type="rss" text="GN BC Working Lands" title="GN BC Working Lands" xmlUrl="https://news.google.com/rss/search?q=%22BC+forestry%22+OR+%22BC+ranching%22+OR+%22BC+agriculture%22+OR+%22BC+Cattlemen%22+OR+%22COFI%22+OR+%22BC+lumber%22&amp;hl=en&amp;gl=CA&amp;ceid=CA:en" htmlUrl="https://news.google.com" />
+      <outline type="rss" text="APTN News" title="APTN News" xmlUrl="https://www.aptnnews.ca/feed/" htmlUrl="https://www.aptnnews.ca" />
+      <outline type="rss" text="GN First Nations Technology Council" title="GN First Nations Technology Council" xmlUrl="https://news.google.com/rss/search?q=%22First+Nations+Technology+Council%22+OR+%22FNTC%22+BC&amp;hl=en&amp;gl=CA&amp;ceid=CA:en" htmlUrl="https://news.google.com" />
+      <outline type="rss" text="GN BC Wildfire and Conservation" title="GN BC Wildfire and Conservation" xmlUrl="https://news.google.com/rss/search?q=%22BC+Wildfire%22+OR+%22BC+Parks%22+OR+%22BC+conservation%22+OR+%22species+at+risk%22+BC&amp;hl=en&amp;gl=CA&amp;ceid=CA:en" htmlUrl="https://news.google.com" />
+      <outline type="rss" text="GN Rural BC Infrastructure" title="GN Rural BC Infrastructure" xmlUrl="https://news.google.com/rss/search?q=%22rural+BC%22+OR+%22UBCM%22+OR+%22rural+broadband%22+OR+%22Connecting+BC%22+OR+%22rural+health%22+BC&amp;hl=en&amp;gl=CA&amp;ceid=CA:en" htmlUrl="https://news.google.com" />
+    </outline>
     <outline text="Discovery Rotation" title="Discovery Rotation">
-      <outline type="rss" text="Scientific American" title="Scientific American" xmlUrl="https://www.scientificamerican.com/feed/" htmlUrl="https://www.scientificamerican.com" />
-      <outline type="rss" text="JSTOR Daily" title="JSTOR Daily" xmlUrl="https://daily.jstor.org/feed/" htmlUrl="https://daily.jstor.org" />
-      <outline type="rss" text="Lapham's Quarterly" title="Lapham's Quarterly" xmlUrl="https://www.laphamsquarterly.org/rss.xml" htmlUrl="https://www.laphamsquarterly.org" />
-      <outline type="rss" text="Futility Closet" title="Futility Closet" xmlUrl="https://www.futilitycloset.com/feed/" htmlUrl="https://www.futilitycloset.com" />
-      <outline type="rss" text="The Conversation" title="The Conversation" xmlUrl="https://theconversation.com/articles.atom" htmlUrl="https://theconversation.com" />
+      <outline type="rss" text="Philosophy Bites" title="Philosophy Bites" xmlUrl="https://philosophybites.com/atom.xml" htmlUrl="https://philosophybites.com" />
+      <outline type="rss" text="Strong Towns" title="Strong Towns" xmlUrl="https://www.strongtowns.org/journal?format=rss" htmlUrl="https://www.strongtowns.org" />
+      <outline type="rss" text="Serious Eats" title="Serious Eats" xmlUrl="https://www.seriouseats.com/feeds/all" htmlUrl="https://www.seriouseats.com" />
+      <outline type="rss" text="STAT News" title="STAT News" xmlUrl="https://www.statnews.com/feed/" htmlUrl="https://www.statnews.com" />
+      <outline type="rss" text="AP News" title="AP News" xmlUrl="https://apnews.com/rss" htmlUrl="https://apnews.com" />
     </outline>
   </body>
 </opml>
