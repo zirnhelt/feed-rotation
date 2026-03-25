@@ -15,13 +15,14 @@ _Record disabled sources, manual changes, and follow-ups here. This section is p
 
 | Source | Disabled | Reason | Fallback |
 |---|---|---|---|
-| My Cariboo Now | March 2026 | 403 Forbidden — blocking GitHub Actions user-agent. Same network as My East Kootenay Now; watch that one too. | GN fallback URL in feeds.opml comment |
+| My Cariboo Now | March 2026 | 403 Forbidden — blocking GitHub Actions user-agent. | GN fallback URL in feeds.opml comment |
+| My East Kootenay Now | 2026-03-25 | Off-region: East Kootenay is not Cariboo. Removed in feed audit. | None needed — not Cariboo-relevant |
 
 ### Pending source checks (from FEEDS_MAINTENANCE.md)
 
 - [ ] **Haida Gwaii Observer** (Friday) — check whether `https://www.haidagwaiiobserver.com/feed/` exists. If yes, add direct feed and remove GN fallback note in feeds.opml.
 - [ ] **Connecting BC broadband** (Sunday) — check `https://www.connectingbc.ca` for a public RSS feed.
-- [ ] **My East Kootenay Now** — watch for 403 errors (same network as My Cariboo Now, which 403-ed in March 2026).
+- [x] **My East Kootenay Now** — removed 2026-03-25 (off-region; feed audit).
 - [ ] **CBC Arts RSS URL** — CBC RSS URLs change occasionally. Verify `https://www.cbc.ca/cmlink/rss-arts` still resolves.
 - [ ] **GN feeds volume** — after first week of runs, check that GN BC Wildfire, GN BC Working Lands, and GN Rural BC Infrastructure are producing articles with `_is_bonus: false`.
 
