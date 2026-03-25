@@ -2,7 +2,7 @@
 <opml version="2.0">
   <head>
     <title>Feed Rotation - Generated</title>
-    <dateCreated>2026-03-25T02:22:47.609196</dateCreated>
+    <dateCreated>2026-03-25T02:31:06.545888</dateCreated>
   </head>
   <body>
     <outline text="Science &amp; Deep Thinking" title="Science &amp; Deep Thinking">
@@ -46,11 +46,11 @@
       <outline type="rss" text="GN Rural BC Infrastructure" title="GN Rural BC Infrastructure" xmlUrl="https://news.google.com/rss/search?q=%22rural+BC%22+OR+%22UBCM%22+OR+%22rural+broadband%22+OR+%22Connecting+BC%22+OR+%22rural+health%22+BC&amp;hl=en&amp;gl=CA&amp;ceid=CA:en" htmlUrl="https://news.google.com" />
     </outline>
     <outline text="Discovery Rotation" title="Discovery Rotation">
-      <outline type="rss" text="Philosophy Bites" title="Philosophy Bites" xmlUrl="https://philosophybites.com/atom.xml" htmlUrl="https://philosophybites.com" />
-      <outline type="rss" text="Strong Towns" title="Strong Towns" xmlUrl="https://www.strongtowns.org/journal?format=rss" htmlUrl="https://www.strongtowns.org" />
-      <outline type="rss" text="Serious Eats" title="Serious Eats" xmlUrl="https://www.seriouseats.com/feeds/all" htmlUrl="https://www.seriouseats.com" />
-      <outline type="rss" text="STAT News" title="STAT News" xmlUrl="https://www.statnews.com/feed/" htmlUrl="https://www.statnews.com" />
-      <outline type="rss" text="AP News" title="AP News" xmlUrl="https://apnews.com/rss" htmlUrl="https://apnews.com" />
+      <outline type="rss" text="Metafilter" title="Metafilter" xmlUrl="https://www.metafilter.com/rss.xml" htmlUrl="https://www.metafilter.com" />
+      <outline type="rss" text="Public Books" title="Public Books" xmlUrl="https://www.publicbooks.org/feed/" htmlUrl="https://www.publicbooks.org" />
+      <outline type="rss" text="Hakai Magazine" title="Hakai Magazine" xmlUrl="https://hakaimagazine.com/feed/" htmlUrl="https://hakaimagazine.com" />
+      <outline type="rss" text="Using RSS to keep track of the latest Journal Articles – Elephant in the Lab" title="Using RSS to keep track of the latest Journal Articles – Elephant in the Lab" xmlUrl="https://elephantinthelab.org/feed/" htmlUrl="https://elephantinthelab.org" />
+      <outline type="rss" text="APTN News" title="APTN News" xmlUrl="https://www.aptnnews.ca/feed/" htmlUrl="https://www.aptnnews.ca" />
     </outline>
   </body>
 </opml>
