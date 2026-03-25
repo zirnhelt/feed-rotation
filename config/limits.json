@@ -1,0 +1,9 @@
+{
+  "_comment": "Scoring and volume limits for podcast feed generation.",
+  "min_claude_score": 15,
+  "max_articles_per_feed": 100,
+  "max_articles_per_source": 10,
+  "days_lookback": 7,
+  "target_feed_size": 30,
+  "min_feed_size_warn": 10
+}
