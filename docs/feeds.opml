@@ -2,7 +2,7 @@
 <opml version="2.0">
   <head>
     <title>Feed Rotation - Generated</title>
-    <dateCreated>2026-03-25T02:31:06.545888</dateCreated>
+    <dateCreated>2026-03-29T04:26:59.772471</dateCreated>
   </head>
   <body>
     <outline text="Science &amp; Deep Thinking" title="Science &amp; Deep Thinking">
@@ -33,9 +33,12 @@
     <outline text="Podcast Sources" title="Podcast Sources">
       <outline type="rss" text="Williams Lake Tribune" title="Williams Lake Tribune" xmlUrl="https://www.wltribune.com/feed/" htmlUrl="https://www.wltribune.com" />
       <outline type="rss" text="Quesnel Cariboo Observer" title="Quesnel Cariboo Observer" xmlUrl="https://www.quesnelobserver.com/feed/" htmlUrl="https://www.quesnelobserver.com" />
-      <outline type="rss" text="My East Kootenay Now" title="My East Kootenay Now" xmlUrl="https://www.myeastkootenaynow.com/feed/" htmlUrl="https://www.myeastkootenaynow.com" />
       <outline type="rss" text="CBC British Columbia" title="CBC British Columbia" xmlUrl="https://www.cbc.ca/cmlink/rss-canada-britishcolumbia" htmlUrl="https://www.cbc.ca/news/canada/british-columbia" />
       <outline type="rss" text="CBC News" title="CBC News" xmlUrl="https://www.cbc.ca/cmlink/rss-topstories" htmlUrl="https://www.cbc.ca/news" />
+      <outline type="rss" text="CBC Politics" title="CBC Politics" xmlUrl="https://www.cbc.ca/cmlink/rss-politics" htmlUrl="https://www.cbc.ca/news/politics" />
+      <outline type="rss" text="CTV News" title="CTV News" xmlUrl="https://www.ctvnews.ca/rss/ctvnews-ca-top-stories-public-rss-1.822009" htmlUrl="https://www.ctvnews.ca" />
+      <outline type="rss" text="iPolitics" title="iPolitics" xmlUrl="https://ipolitics.ca/feed/" htmlUrl="https://ipolitics.ca" />
+      <outline type="rss" text="Maclean's" title="Maclean's" xmlUrl="https://www.macleans.ca/feed/" htmlUrl="https://www.macleans.ca" />
       <outline type="rss" text="Spacing Magazine" title="Spacing Magazine" xmlUrl="https://spacing.ca/feed/" htmlUrl="https://spacing.ca" />
       <outline type="rss" text="CBC Arts" title="CBC Arts" xmlUrl="https://www.cbc.ca/cmlink/rss-arts" htmlUrl="https://www.cbc.ca/arts" />
       <outline type="rss" text="GN BC Arts Council" title="GN BC Arts Council" xmlUrl="https://news.google.com/rss/search?q=%22BC+Arts+Council%22+OR+%22BC+arts+funding%22&amp;hl=en&amp;gl=CA&amp;ceid=CA:en" htmlUrl="https://news.google.com" />
@@ -46,11 +49,11 @@
       <outline type="rss" text="GN Rural BC Infrastructure" title="GN Rural BC Infrastructure" xmlUrl="https://news.google.com/rss/search?q=%22rural+BC%22+OR+%22UBCM%22+OR+%22rural+broadband%22+OR+%22Connecting+BC%22+OR+%22rural+health%22+BC&amp;hl=en&amp;gl=CA&amp;ceid=CA:en" htmlUrl="https://news.google.com" />
     </outline>
     <outline text="Discovery Rotation" title="Discovery Rotation">
-      <outline type="rss" text="Metafilter" title="Metafilter" xmlUrl="https://www.metafilter.com/rss.xml" htmlUrl="https://www.metafilter.com" />
-      <outline type="rss" text="Public Books" title="Public Books" xmlUrl="https://www.publicbooks.org/feed/" htmlUrl="https://www.publicbooks.org" />
-      <outline type="rss" text="Hakai Magazine" title="Hakai Magazine" xmlUrl="https://hakaimagazine.com/feed/" htmlUrl="https://hakaimagazine.com" />
-      <outline type="rss" text="Using RSS to keep track of the latest Journal Articles – Elephant in the Lab" title="Using RSS to keep track of the latest Journal Articles – Elephant in the Lab" xmlUrl="https://elephantinthelab.org/feed/" htmlUrl="https://elephantinthelab.org" />
-      <outline type="rss" text="APTN News" title="APTN News" xmlUrl="https://www.aptnnews.ca/feed/" htmlUrl="https://www.aptnnews.ca" />
+      <outline type="rss" text="3 Quarks Daily" title="3 Quarks Daily" xmlUrl="https://3quarksdaily.com/3quarksdaily/atom.xml" htmlUrl="https://3quarksdaily.com" />
+      <outline type="rss" text="National Geographic News" title="National Geographic News" xmlUrl="http://news.nationalgeographic.com/index.rss" htmlUrl="http://news.nationalgeographic.com" />
+      <outline type="rss" text="CTV News" title="CTV News" xmlUrl="https://www.ctvnews.ca/rss/ctvnews-ca-top-stories-public-rss-1.822009" htmlUrl="https://www.ctvnews.ca" />
+      <outline type="rss" text="Reuters Top News" title="Reuters Top News" xmlUrl="http://feeds.reuters.com/reuters/topNews" htmlUrl="https://www.reuters.com" />
+      <outline type="rss" text="NYT &gt; Business" title="NYT &gt; Business" xmlUrl="http://www.nytimes.com/services/xml/rss/nyt/Business.xml" htmlUrl="https://www.nytimes.com/section/business" />
     </outline>
   </body>
 </opml>
