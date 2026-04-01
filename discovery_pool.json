@@ -963,7 +963,8 @@
         "brave-api"
       ],
       "quality_score": 5,
-      "last_included": null
+      "last_included": null,
+      "paywall_status": "free"
     },
     {
       "title": "RSS Newsfeeds -- ScienceDaily",
@@ -975,7 +976,8 @@
         "brave-api"
       ],
       "quality_score": 5,
-      "last_included": null
+      "last_included": null,
+      "paywall_status": "free"
     },
     {
       "title": "Using RSS to keep track of the latest Journal Articles \u2013 Elephant in the Lab",
@@ -987,7 +989,8 @@
         "brave-api"
       ],
       "quality_score": 7,
-      "last_included": "2026-03-25T02:31:06.544936"
+      "last_included": "2026-03-25T02:31:06.544936",
+      "paywall_status": "free"
     },
     {
       "title": "longform.org | Jim Nelson",
@@ -999,7 +1002,8 @@
         "brave-api"
       ],
       "quality_score": 6,
-      "last_included": null
+      "last_included": null,
+      "paywall_status": "free"
     },
     {
       "title": "Custom Email Notifications and RSS | Books on Dramatic Literature, Criticism, and Theory, The University Press of Kentucky | Theatre and Performance Studies | University of Kentucky",
@@ -1011,7 +1015,8 @@
         "brave-api"
       ],
       "quality_score": 5,
-      "last_included": null
+      "last_included": null,
+      "paywall_status": "free"
     },
     {
       "title": "ArtsJournal: Daily arts news | Lee Rosenbaum's cultural commentary",
@@ -1023,7 +1028,8 @@
         "brave-api"
       ],
       "quality_score": 5,
-      "last_included": null
+      "last_included": null,
+      "paywall_status": "free"
     },
     {
       "title": "CultureWatch - Bill Muehlenberg's commentary on issues of the day...",
@@ -1035,7 +1041,8 @@
         "brave-api"
       ],
       "quality_score": 5,
-      "last_included": null
+      "last_included": null,
+      "paywall_status": "free"
     },
     {
       "title": "Culture - The best articles chosen by the team at Paperblog",
@@ -1047,7 +1054,8 @@
         "brave-api"
       ],
       "quality_score": 5,
-      "last_included": null
+      "last_included": null,
+      "paywall_status": "free"
     },
     {
       "title": "Culture : NPR",
@@ -1059,7 +1067,8 @@
         "brave-api"
       ],
       "quality_score": 5,
-      "last_included": null
+      "last_included": null,
+      "paywall_status": "free"
     },
     {
       "title": "Pop Junctions: Reflections on Entertainment, Pop Culture, Activism, Media Literacy, Fandom and More",
@@ -1071,7 +1080,8 @@
         "brave-api"
       ],
       "quality_score": 5,
-      "last_included": null
+      "last_included": null,
+      "paywall_status": "free"
     },
     {
       "title": "News Feeds | Climate Change Resources",
@@ -1083,7 +1093,8 @@
         "brave-api"
       ],
       "quality_score": 5,
-      "last_included": null
+      "last_included": null,
+      "paywall_status": "free"
     },
     {
       "title": "Web Feeds | Nature Climate Change",
@@ -1095,7 +1106,8 @@
         "brave-api"
       ],
       "quality_score": 5,
-      "last_included": null
+      "last_included": null,
+      "paywall_status": "free"
     },
     {
       "title": "RSS Newsfeeds -- ScienceDaily",
@@ -1107,7 +1119,8 @@
         "brave-api"
       ],
       "quality_score": 5,
-      "last_included": null
+      "last_included": null,
+      "paywall_status": "free"
     },
     {
       "title": "RSS Feeds for EconLog - Econlib",
@@ -1119,7 +1132,8 @@
         "brave-api"
       ],
       "quality_score": 5,
-      "last_included": null
+      "last_included": null,
+      "paywall_status": "free"
     },
     {
       "title": "Law and Political Economy Blog - LPE Project - LPE Project",
@@ -1131,7 +1145,8 @@
         "brave-api"
       ],
       "quality_score": 5,
-      "last_included": null
+      "last_included": null,
+      "paywall_status": "free"
     },
     {
       "title": "RSS Newsfeeds -- ScienceDaily",
@@ -1143,7 +1158,8 @@
         "brave-api"
       ],
       "quality_score": 5,
-      "last_included": null
+      "last_included": null,
+      "paywall_status": "free"
     },
     {
       "title": "What are the Ethics of using RSS feeds?",
@@ -1155,7 +1171,8 @@
         "brave-api"
       ],
       "quality_score": 5,
-      "last_included": null
+      "last_included": null,
+      "paywall_status": "free"
     }
   ]
 }

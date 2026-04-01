@@ -1,5 +1,5 @@
 {
-  "generated": "2026-03-25T02:25:53.774521",
+  "generated": "2026-04-01T05:29:50.692574",
   "mode": "both",
   "paywall_checks": [
     {
@@ -243,22 +243,6 @@
       "confidence": "medium"
     },
     {
-      "title": "Gizmodo",
-      "domain": "gizmodo.com",
-      "xmlUrl": "http://gizmodo.com/vip.xml",
-      "paywalled": false,
-      "evidence": "no paywall indicators found",
-      "confidence": "medium"
-    },
-    {
-      "title": "Engadget",
-      "domain": "engadget.com",
-      "xmlUrl": "http://www.engadget.com/rss.xml",
-      "paywalled": false,
-      "evidence": "no paywall indicators found",
-      "confidence": "medium"
-    },
-    {
       "title": "Articles (Dangerous Minds)",
       "domain": "dangerousminds.net",
       "xmlUrl": "http://dangerousminds.net/atom",
@@ -294,14 +278,6 @@
       "title": "Every Page is Page One",
       "domain": "everypageispageone.com",
       "xmlUrl": "http://everypageispageone.com/feed/",
-      "paywalled": false,
-      "evidence": "no paywall indicators found",
-      "confidence": "medium"
-    },
-    {
-      "title": "CNET Smart Home",
-      "domain": "cnet.com",
-      "xmlUrl": "http://www.cnet.com/rss/smart-home/",
       "paywalled": false,
       "evidence": "no paywall indicators found",
       "confidence": "medium"
@@ -398,6 +374,38 @@
       "title": "The Tyee",
       "domain": "thetyee.ca",
       "xmlUrl": "https://thetyee.ca/rss2.xml",
+      "paywalled": false,
+      "evidence": "no paywall indicators found",
+      "confidence": "medium"
+    },
+    {
+      "title": "CBC Politics",
+      "domain": "cbc.ca",
+      "xmlUrl": "https://www.cbc.ca/cmlink/rss-politics",
+      "paywalled": false,
+      "evidence": "no paywall indicators found",
+      "confidence": "medium"
+    },
+    {
+      "title": "CTV News",
+      "domain": "ctvnews.ca",
+      "xmlUrl": "https://www.ctvnews.ca/rss/ctvnews-ca-top-stories-public-rss-1.822009",
+      "paywalled": false,
+      "evidence": "no paywall indicators found",
+      "confidence": "medium"
+    },
+    {
+      "title": "iPolitics",
+      "domain": "ipolitics.ca",
+      "xmlUrl": "https://ipolitics.ca/feed/",
+      "paywalled": false,
+      "evidence": "no paywall indicators found",
+      "confidence": "medium"
+    },
+    {
+      "title": "Maclean's",
+      "domain": "macleans.ca",
+      "xmlUrl": "https://www.macleans.ca/feed/",
       "paywalled": false,
       "evidence": "no paywall indicators found",
       "confidence": "medium"
@@ -577,61 +585,149 @@
       "paywalled": false,
       "evidence": "no paywall indicators found",
       "confidence": "medium"
+    },
+    {
+      "title": "Ten Open Source RSS News Readers for Smartphones | Welcome to The Privacy Dad's Blog!",
+      "domain": "theprivacydad.com",
+      "xmlUrl": "https://theprivacydad.com/feed/",
+      "paywalled": false,
+      "evidence": "no paywall indicators found",
+      "confidence": "medium"
+    },
+    {
+      "title": "RSS Newsfeeds -- ScienceDaily",
+      "domain": "sciencedaily.com",
+      "xmlUrl": "https://www.sciencedaily.com/rss/all.xml",
+      "paywalled": false,
+      "evidence": "no paywall indicators found",
+      "confidence": "medium"
+    },
+    {
+      "title": "Using RSS to keep track of the latest Journal Articles \u2013 Elephant in the Lab",
+      "domain": "elephantinthelab.org",
+      "xmlUrl": "https://elephantinthelab.org/feed/",
+      "paywalled": false,
+      "evidence": "no paywall indicators found",
+      "confidence": "medium"
+    },
+    {
+      "title": "longform.org | Jim Nelson",
+      "domain": "j-nelson.net",
+      "xmlUrl": "https://j-nelson.net/feed/",
+      "paywalled": false,
+      "evidence": "no paywall indicators found",
+      "confidence": "medium"
+    },
+    {
+      "title": "Custom Email Notifications and RSS | Books on Dramatic Literature, Criticism, and Theory, The University Press of Kentucky | Theatre and Performance Studies | University of Kentucky",
+      "domain": "uknowledge.uky.edu",
+      "xmlUrl": "https://uknowledge.uky.edu/recent.rss",
+      "paywalled": false,
+      "evidence": "no paywall indicators found",
+      "confidence": "medium"
+    },
+    {
+      "title": "ArtsJournal: Daily arts news | Lee Rosenbaum's cultural commentary",
+      "domain": "artsjournal.com",
+      "xmlUrl": "https://www.artsjournal.com/feed",
+      "paywalled": false,
+      "evidence": "no paywall indicators found",
+      "confidence": "medium"
+    },
+    {
+      "title": "CultureWatch - Bill Muehlenberg's commentary on issues of the day...",
+      "domain": "billmuehlenberg.com",
+      "xmlUrl": "https://billmuehlenberg.com/feed/",
+      "paywalled": false,
+      "evidence": "no paywall indicators found",
+      "confidence": "medium"
+    },
+    {
+      "title": "Culture - The best articles chosen by the team at Paperblog",
+      "domain": "en.paperblog.com",
+      "xmlUrl": "https://en.paperblog.com/rss/une/",
+      "paywalled": false,
+      "evidence": "no paywall indicators found",
+      "confidence": "medium"
+    },
+    {
+      "title": "Culture : NPR",
+      "domain": "npr.org",
+      "xmlUrl": "https://feeds.npr.org/1002/rss.xml",
+      "paywalled": false,
+      "evidence": "no paywall indicators found",
+      "confidence": "medium"
+    },
+    {
+      "title": "Pop Junctions: Reflections on Entertainment, Pop Culture, Activism, Media Literacy, Fandom and More",
+      "domain": "henryjenkins.org",
+      "xmlUrl": "http://henryjenkins.org/blog?format=rss",
+      "paywalled": false,
+      "evidence": "no paywall indicators found",
+      "confidence": "medium"
+    },
+    {
+      "title": "News Feeds | Climate Change Resources",
+      "domain": "climatechangeresources.org",
+      "xmlUrl": "https://climatechangeresources.org/rss.xml",
+      "paywalled": false,
+      "evidence": "no paywall indicators found",
+      "confidence": "medium"
+    },
+    {
+      "title": "Web Feeds | Nature Climate Change",
+      "domain": "nature.com",
+      "xmlUrl": "https://www.nature.com/nature.rss",
+      "paywalled": false,
+      "evidence": "no paywall indicators found",
+      "confidence": "medium"
+    },
+    {
+      "title": "RSS Newsfeeds -- ScienceDaily",
+      "domain": "sciencedaily.com",
+      "xmlUrl": "https://www.sciencedaily.com/rss/all.xml",
+      "paywalled": false,
+      "evidence": "no paywall indicators found",
+      "confidence": "medium"
+    },
+    {
+      "title": "RSS Feeds for EconLog - Econlib",
+      "domain": "econlib.org",
+      "xmlUrl": "https://www.econlib.org/feed",
+      "paywalled": false,
+      "evidence": "no paywall indicators found",
+      "confidence": "medium"
+    },
+    {
+      "title": "Law and Political Economy Blog - LPE Project - LPE Project",
+      "domain": "lpeproject.org",
+      "xmlUrl": "https://lpeproject.org/feed",
+      "paywalled": false,
+      "evidence": "no paywall indicators found",
+      "confidence": "medium"
+    },
+    {
+      "title": "RSS Newsfeeds -- ScienceDaily",
+      "domain": "sciencedaily.com",
+      "xmlUrl": "https://www.sciencedaily.com/rss/all.xml",
+      "paywalled": false,
+      "evidence": "no paywall indicators found",
+      "confidence": "medium"
+    },
+    {
+      "title": "What are the Ethics of using RSS feeds?",
+      "domain": "problogger.com",
+      "xmlUrl": "https://problogger.com/feed",
+      "paywalled": false,
+      "evidence": "no paywall indicators found",
+      "confidence": "medium"
     }
   ],
   "discovered_feeds": [
     {
-      "title": "Ten Open Source RSS News Readers for Smartphones | Welcome to The Privacy Dad's Blog!",
-      "xmlUrl": "https://theprivacydad.com/feed/",
-      "htmlUrl": "https://theprivacydad.com",
-      "category": "tech",
-      "tags": [
-        "discovered",
-        "brave-api"
-      ],
-      "quality_score": 5,
-      "last_included": null
-    },
-    {
-      "title": "RSS Newsfeeds -- ScienceDaily",
-      "xmlUrl": "https://www.sciencedaily.com/rss/all.xml",
-      "htmlUrl": "https://www.sciencedaily.com",
-      "category": "science",
-      "tags": [
-        "discovered",
-        "brave-api"
-      ],
-      "quality_score": 5,
-      "last_included": null
-    },
-    {
-      "title": "Using RSS to keep track of the latest Journal Articles \u2013 Elephant in the Lab",
-      "xmlUrl": "https://elephantinthelab.org/feed/",
-      "htmlUrl": "https://elephantinthelab.org",
-      "category": "science",
-      "tags": [
-        "discovered",
-        "brave-api"
-      ],
-      "quality_score": 7,
-      "last_included": null
-    },
-    {
-      "title": "longform.org | Jim Nelson",
-      "xmlUrl": "https://j-nelson.net/feed/",
-      "htmlUrl": "https://j-nelson.net",
-      "category": "culture",
-      "tags": [
-        "discovered",
-        "brave-api"
-      ],
-      "quality_score": 6,
-      "last_included": null
-    },
-    {
-      "title": "Custom Email Notifications and RSS | Books on Dramatic Literature, Criticism, and Theory, The University Press of Kentucky | Theatre and Performance Studies | University of Kentucky",
-      "xmlUrl": "https://uknowledge.uky.edu/recent.rss",
-      "htmlUrl": "https://uknowledge.uky.edu",
+      "title": "Blog \u2013 Success Across Cultures",
+      "xmlUrl": "https://successacrosscultures.com/feed/",
+      "htmlUrl": "https://successacrosscultures.com",
       "category": "culture",
       "tags": [
         "discovered",
@@ -641,142 +737,10 @@
       "last_included": null
     },
     {
-      "title": "ArtsJournal: Daily arts news | Lee Rosenbaum's cultural commentary",
-      "xmlUrl": "https://www.artsjournal.com/feed",
-      "htmlUrl": "https://www.artsjournal.com",
+      "title": "Blog \u2013 Middling Culture",
+      "xmlUrl": "https://middlingculture.com/feed/",
+      "htmlUrl": "https://middlingculture.com",
       "category": "culture",
-      "tags": [
-        "discovered",
-        "brave-api"
-      ],
-      "quality_score": 5,
-      "last_included": null
-    },
-    {
-      "title": "CultureWatch - Bill Muehlenberg's commentary on issues of the day...",
-      "xmlUrl": "https://billmuehlenberg.com/feed/",
-      "htmlUrl": "https://billmuehlenberg.com",
-      "category": "culture",
-      "tags": [
-        "discovered",
-        "brave-api"
-      ],
-      "quality_score": 5,
-      "last_included": null
-    },
-    {
-      "title": "Culture - The best articles chosen by the team at Paperblog",
-      "xmlUrl": "https://en.paperblog.com/rss/une/",
-      "htmlUrl": "https://en.paperblog.com",
-      "category": "culture",
-      "tags": [
-        "discovered",
-        "brave-api"
-      ],
-      "quality_score": 5,
-      "last_included": null
-    },
-    {
-      "title": "Culture : NPR",
-      "xmlUrl": "https://feeds.npr.org/1002/rss.xml",
-      "htmlUrl": "https://www.npr.org",
-      "category": "culture",
-      "tags": [
-        "discovered",
-        "brave-api"
-      ],
-      "quality_score": 5,
-      "last_included": null
-    },
-    {
-      "title": "Pop Junctions: Reflections on Entertainment, Pop Culture, Activism, Media Literacy, Fandom and More",
-      "xmlUrl": "http://henryjenkins.org/blog?format=rss",
-      "htmlUrl": "https://henryjenkins.org",
-      "category": "culture",
-      "tags": [
-        "discovered",
-        "brave-api"
-      ],
-      "quality_score": 5,
-      "last_included": null
-    },
-    {
-      "title": "News Feeds | Climate Change Resources",
-      "xmlUrl": "https://climatechangeresources.org/rss.xml",
-      "htmlUrl": "https://climatechangeresources.org",
-      "category": "environment",
-      "tags": [
-        "discovered",
-        "brave-api"
-      ],
-      "quality_score": 5,
-      "last_included": null
-    },
-    {
-      "title": "Web Feeds | Nature Climate Change",
-      "xmlUrl": "https://www.nature.com/nature.rss",
-      "htmlUrl": "https://www.nature.com",
-      "category": "environment",
-      "tags": [
-        "discovered",
-        "brave-api"
-      ],
-      "quality_score": 5,
-      "last_included": null
-    },
-    {
-      "title": "RSS Newsfeeds -- ScienceDaily",
-      "xmlUrl": "https://www.sciencedaily.com/rss/all.xml",
-      "htmlUrl": "https://www.sciencedaily.com",
-      "category": "environment",
-      "tags": [
-        "discovered",
-        "brave-api"
-      ],
-      "quality_score": 5,
-      "last_included": null
-    },
-    {
-      "title": "RSS Feeds for EconLog - Econlib",
-      "xmlUrl": "https://www.econlib.org/feed",
-      "htmlUrl": "https://www.econlib.org",
-      "category": "economics",
-      "tags": [
-        "discovered",
-        "brave-api"
-      ],
-      "quality_score": 5,
-      "last_included": null
-    },
-    {
-      "title": "Law and Political Economy Blog - LPE Project - LPE Project",
-      "xmlUrl": "https://lpeproject.org/feed",
-      "htmlUrl": "https://lpeproject.org",
-      "category": "economics",
-      "tags": [
-        "discovered",
-        "brave-api"
-      ],
-      "quality_score": 5,
-      "last_included": null
-    },
-    {
-      "title": "RSS Newsfeeds -- ScienceDaily",
-      "xmlUrl": "https://www.sciencedaily.com/rss/all.xml",
-      "htmlUrl": "https://www.sciencedaily.com",
-      "category": "health",
-      "tags": [
-        "discovered",
-        "brave-api"
-      ],
-      "quality_score": 5,
-      "last_included": null
-    },
-    {
-      "title": "What are the Ethics of using RSS feeds?",
-      "xmlUrl": "https://problogger.com/feed",
-      "htmlUrl": "https://problogger.com",
-      "category": "philosophy",
       "tags": [
         "discovered",
         "brave-api"
