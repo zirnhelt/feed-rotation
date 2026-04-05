@@ -2,7 +2,7 @@
 <opml version="2.0">
   <head>
     <title>Feed Rotation - Generated</title>
-    <dateCreated>2026-03-29T04:26:59.772471</dateCreated>
+    <dateCreated>2026-04-05T04:27:00.884962</dateCreated>
   </head>
   <body>
     <outline text="Science &amp; Deep Thinking" title="Science &amp; Deep Thinking">
@@ -49,11 +49,11 @@
       <outline type="rss" text="GN Rural BC Infrastructure" title="GN Rural BC Infrastructure" xmlUrl="https://news.google.com/rss/search?q=%22rural+BC%22+OR+%22UBCM%22+OR+%22rural+broadband%22+OR+%22Connecting+BC%22+OR+%22rural+health%22+BC&amp;hl=en&amp;gl=CA&amp;ceid=CA:en" htmlUrl="https://news.google.com" />
     </outline>
     <outline text="Discovery Rotation" title="Discovery Rotation">
-      <outline type="rss" text="3 Quarks Daily" title="3 Quarks Daily" xmlUrl="https://3quarksdaily.com/3quarksdaily/atom.xml" htmlUrl="https://3quarksdaily.com" />
-      <outline type="rss" text="National Geographic News" title="National Geographic News" xmlUrl="http://news.nationalgeographic.com/index.rss" htmlUrl="http://news.nationalgeographic.com" />
-      <outline type="rss" text="CTV News" title="CTV News" xmlUrl="https://www.ctvnews.ca/rss/ctvnews-ca-top-stories-public-rss-1.822009" htmlUrl="https://www.ctvnews.ca" />
-      <outline type="rss" text="Reuters Top News" title="Reuters Top News" xmlUrl="http://feeds.reuters.com/reuters/topNews" htmlUrl="https://www.reuters.com" />
-      <outline type="rss" text="NYT &gt; Business" title="NYT &gt; Business" xmlUrl="http://www.nytimes.com/services/xml/rss/nyt/Business.xml" htmlUrl="https://www.nytimes.com/section/business" />
+      <outline type="rss" text="Maclean's" title="Maclean's" xmlUrl="https://www.macleans.ca/feed/" htmlUrl="https://www.macleans.ca" />
+      <outline type="rss" text="BBC World News" title="BBC World News" xmlUrl="http://feeds.bbci.co.uk/news/world/rss.xml" htmlUrl="https://www.bbc.co.uk/news/world" />
+      <outline type="rss" text="Jacobin" title="Jacobin" xmlUrl="https://jacobin.com/feed/" htmlUrl="https://jacobin.com" />
+      <outline type="rss" text="The Progressive Economics Forum" title="The Progressive Economics Forum" xmlUrl="http://www.progressive-economics.ca/feed/" htmlUrl="https://www.progressive-economics.ca" />
+      <outline type="rss" text="Every Page is Page One" title="Every Page is Page One" xmlUrl="http://everypageispageone.com/feed/" htmlUrl="https://everypageispageone.com" />
     </outline>
   </body>
 </opml>
