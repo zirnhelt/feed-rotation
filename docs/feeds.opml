@@ -2,7 +2,7 @@
 <opml version="2.0">
   <head>
     <title>Feed Rotation - Generated</title>
-    <dateCreated>2026-04-12T04:36:47.816105</dateCreated>
+    <dateCreated>2026-04-19T04:41:23.974760</dateCreated>
   </head>
   <body>
     <outline text="Science &amp; Deep Thinking" title="Science &amp; Deep Thinking">
@@ -49,11 +49,11 @@
       <outline type="rss" text="GN Rural BC Infrastructure" title="GN Rural BC Infrastructure" xmlUrl="https://news.google.com/rss/search?q=%22rural+BC%22+OR+%22UBCM%22+OR+%22rural+broadband%22+OR+%22Connecting+BC%22+OR+%22rural+health%22+BC&amp;hl=en&amp;gl=CA&amp;ceid=CA:en" htmlUrl="https://news.google.com" />
     </outline>
     <outline text="Discovery Rotation" title="Discovery Rotation">
-      <outline type="rss" text="CBC Politics" title="CBC Politics" xmlUrl="https://www.cbc.ca/cmlink/rss-politics" htmlUrl="https://www.cbc.ca/news/politics" />
-      <outline type="rss" text="Techdirt" title="Techdirt" xmlUrl="http://www.techdirt.com/techdirt_rss.xml" htmlUrl="https://www.techdirt.com" />
-      <outline type="rss" text="iPolitics" title="iPolitics" xmlUrl="https://ipolitics.ca/feed/" htmlUrl="https://ipolitics.ca" />
-      <outline type="rss" text="Labor Notes" title="Labor Notes" xmlUrl="https://labornotes.org/rss.xml" htmlUrl="https://labornotes.org" />
-      <outline type="rss" text="Ars Technica – Technology Lab" title="Ars Technica – Technology Lab" xmlUrl="https://feeds.arstechnica.com/arstechnica/technology-lab" htmlUrl="https://arstechnica.com" />
+      <outline type="rss" text="Yale Environment 360" title="Yale Environment 360" xmlUrl="https://e360.yale.edu/feed" htmlUrl="https://e360.yale.edu" />
+      <outline type="rss" text="The Tyee" title="The Tyee" xmlUrl="https://thetyee.ca/rss2.xml" htmlUrl="https://thetyee.ca" />
+      <outline type="rss" text="Scientific American" title="Scientific American" xmlUrl="https://www.scientificamerican.com/feed/" htmlUrl="https://www.scientificamerican.com" />
+      <outline type="rss" text="JSTOR Daily" title="JSTOR Daily" xmlUrl="https://daily.jstor.org/feed/" htmlUrl="https://daily.jstor.org" />
+      <outline type="rss" text="Futility Closet" title="Futility Closet" xmlUrl="https://www.futilitycloset.com/feed/" htmlUrl="https://www.futilitycloset.com" />
     </outline>
   </body>
 </opml>
