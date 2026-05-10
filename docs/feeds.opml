@@ -2,7 +2,7 @@
 <opml version="2.0">
   <head>
     <title>Feed Rotation - Generated</title>
-    <dateCreated>2026-05-03T05:19:21.997257</dateCreated>
+    <dateCreated>2026-05-10T05:26:23.802144</dateCreated>
   </head>
   <body>
     <outline text="Science &amp; Deep Thinking" title="Science &amp; Deep Thinking">
@@ -49,11 +49,11 @@
       <outline type="rss" text="GN Rural BC Infrastructure" title="GN Rural BC Infrastructure" xmlUrl="https://news.google.com/rss/search?q=%22rural+BC%22+OR+%22UBCM%22+OR+%22rural+broadband%22+OR+%22Connecting+BC%22+OR+%22rural+health%22+BC&amp;hl=en&amp;gl=CA&amp;ceid=CA:en" htmlUrl="https://news.google.com" />
     </outline>
     <outline text="Discovery Rotation" title="Discovery Rotation">
-      <outline type="rss" text="Literary Hub" title="Literary Hub" xmlUrl="https://lithub.com/feed/" htmlUrl="https://lithub.com" />
-      <outline type="rss" text="3 Quarks Daily" title="3 Quarks Daily" xmlUrl="https://3quarksdaily.com/3quarksdaily/atom.xml" htmlUrl="https://3quarksdaily.com" />
-      <outline type="rss" text="Maclean's" title="Maclean's" xmlUrl="https://www.macleans.ca/feed/" htmlUrl="https://www.macleans.ca" />
-      <outline type="rss" text="Metafilter" title="Metafilter" xmlUrl="https://www.metafilter.com/rss.xml" htmlUrl="https://www.metafilter.com" />
-      <outline type="rss" text="Strong Towns" title="Strong Towns" xmlUrl="https://www.strongtowns.org/journal?format=rss" htmlUrl="https://www.strongtowns.org" />
+      <outline type="rss" text="CBC Politics" title="CBC Politics" xmlUrl="https://www.cbc.ca/cmlink/rss-politics" htmlUrl="https://www.cbc.ca/news/politics" />
+      <outline type="rss" text="Ars Technica – Technology Lab" title="Ars Technica – Technology Lab" xmlUrl="https://feeds.arstechnica.com/arstechnica/technology-lab" htmlUrl="https://arstechnica.com" />
+      <outline type="rss" text="The Paris Review Daily" title="The Paris Review Daily" xmlUrl="https://www.theparisreview.org/feed/" htmlUrl="https://www.theparisreview.org" />
+      <outline type="rss" text="NYT &gt; Business" title="NYT &gt; Business" xmlUrl="http://www.nytimes.com/services/xml/rss/nyt/Business.xml" htmlUrl="https://www.nytimes.com/section/business" />
+      <outline type="rss" text="The Guardian – Global Development" title="The Guardian – Global Development" xmlUrl="https://www.theguardian.com/global-development/rss" htmlUrl="https://www.theguardian.com/global-development" />
     </outline>
   </body>
 </opml>
