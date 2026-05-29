@@ -1,29 +1,6 @@
 name: Brave Feed Discovery
 
-on:
-  schedule:
-    # Run monthly on the 1st at 3am UTC
-    - cron: '0 3 1 * *'
-  workflow_dispatch:
-    inputs:
-      mode:
-        description: 'Operation mode'
-        required: true
-        default: 'both'
-        type: choice
-        options:
-          - discover
-          - verify
-          - both
-      add_to_pool:
-        description: 'Auto-add discovered feeds to pool'
-        required: false
-        default: 'false'
-        type: boolean
-      categories:
-        description: 'Space-separated categories to search (leave blank for all)'
-        required: false
-        default: ''
+on: {}  # Disabled — repository archived 2026-05-29
 
 jobs:
   discover:
